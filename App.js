@@ -1,8 +1,13 @@
 import "@expo/metro-runtime";
 import { StatusBar } from "expo-status-bar";
+import { NativeWindStyleSheet } from "nativewind";
 import { StyleSheet, View } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 import Main from "./components/Main";
+
+NativeWindStyleSheet.setOutput({
+  default: "native",
+});
 
 /**
  * The main App component, which renders the entire app.
