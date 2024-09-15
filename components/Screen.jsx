@@ -12,7 +12,7 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     paddingTop: 10,
-    backgroundColor: "#09f",
+    backgroundColor: "#0099ff",
     /* Cuadrícula */
     backgroundImage:
       "linear-gradient(rgba(255, 255, 255, 0.2) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.2) 1px, transparent 1px)",

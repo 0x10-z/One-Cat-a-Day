@@ -18,7 +18,7 @@ export default function Layout() {
         <View className="flex-1">
           <Stack
             screenOptions={{
-              headerStyle: { backgroundColor: "#000" },
+              headerStyle: { backgroundColor: "#000", border: 0 },
               headerTintColor: "gray",
               headerTitle: "One Cat a Day",
               headerTitleStyle: {

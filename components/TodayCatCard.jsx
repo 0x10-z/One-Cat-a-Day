@@ -156,9 +156,7 @@ export default function TodayCatCard({ newCatInfo }) {
             {/* Peso */}
             <View style={styles.attribute}>
               <WeightScaleIcon className="text-gray-700" />
-              <Text style={styles.attributeText}>
-                {newCatInfo.weight.metric} kg
-              </Text>
+              <Text style={styles.attributeText}>{newCatInfo.weight} kg</Text>
             </View>
 
             {/* Inteligente */}
@@ -172,16 +170,14 @@ export default function TodayCatCard({ newCatInfo }) {
             {/* Amor */}
             <View style={styles.attribute}>
               <LoveIcon className="text-gray-700" />
-              <Text style={styles.attributeText}>
-                {newCatInfo.affection_level}/5
-              </Text>
+              <Text style={styles.attributeText}>{newCatInfo.love}/5</Text>
             </View>
 
             {/* Travieso */}
             <View style={styles.attribute}>
               <BombIcon className="text-gray-700" />
               <Text style={styles.attributeText}>
-                {newCatInfo.social_needs}/5
+                {newCatInfo.exploding_rate}/5
               </Text>
             </View>
           </View>

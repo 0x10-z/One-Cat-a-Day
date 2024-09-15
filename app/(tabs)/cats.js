@@ -24,6 +24,7 @@ export default function MyCats() {
 
           // Filtra los gatos que coinciden con los IDs almacenados
           const filteredCats = fetchedCats.filter((cat) =>
+            // eslint-disable-next-line prettier/prettier
             catList.includes(cat.id)
           );
 

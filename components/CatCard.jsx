@@ -10,7 +10,7 @@ import { useRef, useEffect } from "react";
 import { LifeSpan } from "./LifeSpan";
 import { Link } from "expo-router";
 import { styled } from "nativewind";
-
+import { WeightScaleIcon, BrainIcon, LoveIcon, BombIcon } from "./Icons";
 const StyledPressable = styled(Pressable);
 
 export function CatCard({ cat }) {
@@ -31,6 +31,31 @@ export function CatCard({ cat }) {
                 ? cat.description.slice(0, 100)
                 : "No hay descripción"}
             </Text>
+            {/* Iconos con atributos */}
+            <View
+              className="flex-row justify-between text-center items-center px-2"
+              style={styles.attributesContainer}
+            >
+              {/* Peso */}
+              <View style={styles.attribute}>
+                <WeightScaleIcon className="text-gray-700 text-base mx-1" />
+              </View>
+
+              {/* Inteligente */}
+              <View style={styles.attribute}>
+                <BrainIcon className="text-gray-700 text-base mx-1" />
+              </View>
+
+              {/* Amor */}
+              <View style={styles.attribute}>
+                <LoveIcon className="text-gray-700 text-base mx-1" />
+              </View>
+
+              {/* Travieso */}
+              <View style={styles.attribute}>
+                <BombIcon className="text-gray-700 text-base mx-1" />
+              </View>
+            </View>
           </View>
         </View>
       </StyledPressable>
@@ -94,5 +119,20 @@ const styles = StyleSheet.create({
     marginTop: 8,
     fontSize: 16,
     color: "#eee",
+  },
+  attributesContainer: {
+    flexDirection: "row",
+    justifyContent: "flex-end",
+    width: "100%",
+    marginBottom: 2,
+  },
+  attribute: {
+    flexDirection: "column",
+    alignItems: "center",
+  },
+  attributeText: {
+    marginTop: 0,
+    fontSize: 16,
+    color: "#333",
   },
 });
