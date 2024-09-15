@@ -1,26 +1,54 @@
-import { StyleSheet, Text, View, Image, Animated } from "react-native";
+import {
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  Animated,
+  Pressable,
+} from "react-native";
 import { useRef, useEffect } from "react";
 import { LifeSpan } from "./LifeSpan";
+import { Link } from "expo-router";
+import { styled } from "nativewind";
 
-const descriptionLorem =
-  "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galerí";
+const StyledPressable = styled(Pressable);
+const funnyDescriptions = [
+  "Este gato es como un ninja: aparece de la nada, destruye tu sala y desaparece como si nada.",
+  "¿Tranquilo? Más bien un huracán con patas que corre por toda la casa a las 3 AM.",
+  "Tiene la elegancia de un león... si los leones se durmieran en cajas de zapatos y fueran adictos al atún.",
+  "A veces te mira como si supiera algo que tú no. Probablemente tiene razón.",
+  "Este gato es tan rápido que si parpadeas ya te ha robado el almuerzo.",
+  "Su pasatiempo favorito: empujar cosas desde el borde de cualquier mesa... con actitud.",
+  "No necesita juguetes caros, solo una caja y un rollo de papel higiénico para destruir tu casa.",
+  "Es como un superhéroe con una misión secreta: evitar que trabajes cuando más lo necesitas.",
+  "Este gato tiene más drama que una telenovela, especialmente cuando la comida llega 5 minutos tarde.",
+  "Si no lo ves, no te preocupes... probablemente esté planeando su próxima travesura.",
+  "Nunca subestimes a este gato. Podría parecer adorable, pero tiene una habilidad especial para hackear tu sofá.",
+  "Es un gato con estilo, siempre caminando como si desfilara en una pasarela... de comida, claro.",
+];
 
 export function CatCard({ cat }) {
   return (
-    <View style={styles.cardContainer} key={cat.id}>
-      <Image source={{ uri: cat.url }} style={styles.image} />
-      <View style={styles.infoContainer}>
-        <View style={styles.headerContainer}>
-          <Text style={styles.name}>{cat.name}</Text>
-          <LifeSpan years={cat.lifeSpan} />
+    <Link href={`/${cat.id}`} asChild>
+      <StyledPressable className="active:opacity-80 active:border-white/50 mb-2">
+        <View style={styles.cardContainer} key={cat.id}>
+          <Image source={{ uri: cat.url }} style={styles.image} />
+          <View style={styles.infoContainer}>
+            <View style={styles.headerContainer}>
+              <Text style={styles.name}>{cat.name}</Text>
+              <LifeSpan years={cat.lifeSpan} />
+            </View>
+            <Text style={styles.description}>
+              {cat.description
+                ? cat.description.slice(0, 100)
+                : funnyDescriptions[
+                    Math.floor((Math.random() * 10) % 10)
+                  ].slice(0, 100)}
+            </Text>
+          </View>
         </View>
-        <Text style={styles.description}>
-          {cat.description
-            ? cat.description.slice(0, 100)
-            : descriptionLorem.slice(0, 100)}
-        </Text>
-      </View>
-    </View>
+      </StyledPressable>
+    </Link>
   );
 }
 

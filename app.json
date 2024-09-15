@@ -6,8 +6,9 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "scheme": "onecataday",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash.webp",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -21,13 +22,15 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
     },
     "extra": {
       "eas": {
         "projectId": "4f19a9d1-cda0-480b-bc83-3f17fbaded11"
       }
     },
-    "owner": "0x10"
+    "owner": "0x10",
+    "plugins": ["expo-router"]
   }
 }
