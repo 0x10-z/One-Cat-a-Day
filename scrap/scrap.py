@@ -19,23 +19,58 @@ if not os.path.exists('photos'):
 if not os.path.exists('cat_json'):
     os.makedirs('cat_json')
 
+# Function to get images for a specific breed
+def get_images_by_breed(breed_id, limit=5):
+    url = f'https://api.thecatapi.com/v1/images/search?breed_ids={breed_id}&limit={limit}'
+    response = requests.get(url, headers=headers)
+    return response.json()
+
 # Función para obtener los datos de la API
-def get_cat_data():
-    response = requests.get(API_URL, headers=headers)
-    if response.status_code == 200:
-        return response.json()
-    else:
-        print("Error al acceder a la API")
-        return []
+def get_breeds():
+    with open('cats_json_es.json', 'r') as f:
+        cats_data = json.load(f)
+        return cats_data
+    # response = requests.get(API_URL, headers=headers)
+    # if response.status_code == 200:
+    #     return response.json()
+    # else:
+    #     print("Error al acceder a la API")
+    #     return []
 
 # Función para descargar la imagen del gato
-def download_image(image_id, image_url):
-    img_response = requests.get(image_url)
-    if img_response.status_code == 200:
-        with open(f'photos/{image_id}.jpg', 'wb') as img_file:
-            img_file.write(img_response.content)
-    else:
-        print(f"Error descargando imagen {image_id}")
+def download_image(image_url, breed_folder, image_name):
+    img_data = requests.get(image_url).content
+    with open(os.path.join(breed_folder, image_name), 'wb') as handler:
+        handler.write(img_data)
+
+# Main function to manage the download process
+def download_cat_images():
+    # Get all breeds
+    breeds = get_breeds()
+
+    # Loop through each breed
+    for breed in breeds:
+        try:
+            breed_name = breed['name']
+            breed_id = breed['id']
+            
+            # Create a folder with the breed name
+            breed_folder = os.path.join('.', 'breeds', breed_id)
+            if not os.path.exists(breed_folder):
+                os.makedirs(breed_folder)
+            
+                # Get images for the breed
+                images = get_images_by_breed(breed_id)
+
+                # Download and save each image
+                for idx, image in enumerate(images):
+                    image_url = image['url']
+                    extension = os.path.splitext(image_url)[1]  # Get the file extension (jpg, png, etc.)
+                    image_name = f"{breed_name}_{idx + 1}{extension}"
+                    download_image(image_url, breed_folder, image_name)
+                    print(f"Downloaded: {image_name} in folder {breed_folder}")
+        except Exception:
+            pass
 
 # Función para crear el archivo JSON para cada gato
 def save_cat_info(cat):
@@ -80,7 +115,7 @@ def save_cat_info(cats):
 
 # Función principal para procesar los datos
 def process_cat_data():
-    cat_data = get_cat_data()
+    cat_data = get_breeds()
 
     save_cat_info(cat_data)
     # for cat in tqdm(cat_data, desc="Descargando gatetes😸"):
@@ -94,4 +129,5 @@ def process_cat_data():
     #     save_cat_info(cat)
 
 if __name__ == "__main__":
-    process_cat_data()
+    #process_cat_data()
+    download_cat_images()

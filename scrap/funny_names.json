@@ -1,0 +1,3269 @@
+{
+    "El Conde Maullido": {
+        "name": "El Conde Maullido",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Miaucesar": {
+        "name": "Miaucesar",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Gatín Tarantino": {
+        "name": "Gatín Tarantino",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Señor Garras": {
+        "name": "Señor Garras",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Miau de Nieve": {
+        "name": "Miau de Nieve",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Minino Destructor": {
+        "name": "Minino Destructor",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Sir Ronroneo": {
+        "name": "Sir Ronroneo",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Misi Kitsch": {
+        "name": "Misi Kitsch",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Gatón de Guerra": {
+        "name": "Gatón de Guerra",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Miauestro": {
+        "name": "Miauestro",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Zar Purrinski": {
+        "name": "Zar Purrinski",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "El Felino Feroz": {
+        "name": "El Felino Feroz",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Capitán Rasguños": {
+        "name": "Capitán Rasguños",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Gatito Pelotón": {
+        "name": "Gatito Pelotón",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Misi Travesuras": {
+        "name": "Misi Travesuras",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Don Garras Suaves": {
+        "name": "Don Garras Suaves",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Pelusa de Hierro": {
+        "name": "Pelusa de Hierro",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Miau Twain": {
+        "name": "Miau Twain",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "General Bigotes": {
+        "name": "General Bigotes",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Zarpas Salvaje": {
+        "name": "Zarpas Salvaje",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "El Señor de los Miauros": {
+        "name": "El Señor de los Miauros",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Misi Suavidad": {
+        "name": "Misi Suavidad",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Whiskers McFluff": {
+        "name": "Whiskers McFluff",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Maullido Cósmico": {
+        "name": "Maullido Cósmico",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Purrmonarca": {
+        "name": "Purrmonarca",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Minino Rodante": {
+        "name": "Minino Rodante",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Whisker Master": {
+        "name": "Whisker Master",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Señor Arañazo": {
+        "name": "Señor Arañazo",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "Purrsonio": {
+        "name": "Purrsonio",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Capitán Purrfecto": {
+        "name": "Capitán Purrfecto",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Comandante Meow": {
+        "name": "Comandante Meow",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Felino Galante": {
+        "name": "Felino Galante",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Mister Maullido": {
+        "name": "Mister Maullido",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Whisker Whisk": {
+        "name": "Whisker Whisk",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Miau the Magnificent": {
+        "name": "Miau the Magnificent",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "Zar de Zarpas": {
+        "name": "Zar de Zarpas",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Ronquillo": {
+        "name": "Ronquillo",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Gato Maravilla": {
+        "name": "Gato Maravilla",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Purrmanente": {
+        "name": "Purrmanente",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Bigotes Clandestino": {
+        "name": "Bigotes Clandestino",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Purrinquisidor": {
+        "name": "Purrinquisidor",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Peludo Trotamundos": {
+        "name": "Peludo Trotamundos",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "El Maullador Mágico": {
+        "name": "El Maullador Mágico",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Señor Purrington": {
+        "name": "Señor Purrington",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Felino Magistral": {
+        "name": "Felino Magistral",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Maullido Misterioso": {
+        "name": "Maullido Misterioso",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Purrfesor Garras": {
+        "name": "Purrfesor Garras",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Gatito Intrépido": {
+        "name": "Gatito Intrépido",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Bigotes de Fuego": {
+        "name": "Bigotes de Fuego",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Minino Viajero": {
+        "name": "Minino Viajero",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Capitán Misi": {
+        "name": "Capitán Misi",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Rey Miau": {
+        "name": "Rey Miau",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Purrminator": {
+        "name": "Purrminator",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "Peluso Alado": {
+        "name": "Peluso Alado",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Doctor Ronroneo": {
+        "name": "Doctor Ronroneo",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "El Gato Místico": {
+        "name": "El Gato Místico",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Felino del Espacio": {
+        "name": "Felino del Espacio",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Maestro Garras": {
+        "name": "Maestro Garras",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Bigotes Increíble": {
+        "name": "Bigotes Increíble",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 3
+    },
+    "Pelusa el Magnánimo": {
+        "name": "Pelusa el Magnánimo",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Ronroneador Supremo": {
+        "name": "Ronroneador Supremo",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Minino de las Nubes": {
+        "name": "Minino de las Nubes",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Señor Misi": {
+        "name": "Señor Misi",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Gatito Bigotón": {
+        "name": "Gatito Bigotón",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Zarpas de Seda": {
+        "name": "Zarpas de Seda",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 3
+    },
+    "Purr VanderGato": {
+        "name": "Purr VanderGato",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 3
+    },
+    "Comandante Felino": {
+        "name": "Comandante Felino",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Don Peludo": {
+        "name": "Don Peludo",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Zar de los Gatos": {
+        "name": "Zar de los Gatos",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Pelusa Intrépida": {
+        "name": "Pelusa Intrépida",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Capitán Zarpitas": {
+        "name": "Capitán Zarpitas",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Misi Maullido": {
+        "name": "Misi Maullido",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "El Magnífico Purr": {
+        "name": "El Magnífico Purr",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Whiskers el Noble": {
+        "name": "Whiskers el Noble",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Maullido Dorado": {
+        "name": "Maullido Dorado",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Capitán Rasguñón": {
+        "name": "Capitán Rasguñón",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Purrsonius Rex": {
+        "name": "Purrsonius Rex",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Gatito de Hierro": {
+        "name": "Gatito de Hierro",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Whisker Leyenda": {
+        "name": "Whisker Leyenda",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Felino Encantador": {
+        "name": "Felino Encantador",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Ronroneo de Plata": {
+        "name": "Ronroneo de Plata",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Señor Misi Suave": {
+        "name": "Señor Misi Suave",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "General Gato Supremo": {
+        "name": "General Gato Supremo",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Bigotes de Acero": {
+        "name": "Bigotes de Acero",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Pelusa Galáctico": {
+        "name": "Pelusa Galáctico",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 3
+    },
+    "Purrcival": {
+        "name": "Purrcival",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "Miau de León": {
+        "name": "Miau de León",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Gatito del Sol": {
+        "name": "Gatito del Sol",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Purrsonaje Épico": {
+        "name": "Purrsonaje Épico",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Gatúbelo": {
+        "name": "Gatúbelo",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Maullador Furioso": {
+        "name": "Maullador Furioso",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Capitán Zarpazo": {
+        "name": "Capitán Zarpazo",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Ronroneitor": {
+        "name": "Ronroneitor",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 3
+    },
+    "Whiskers McGraw": {
+        "name": "Whiskers McGraw",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 3
+    },
+    "Felino Brillante": {
+        "name": "Felino Brillante",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Garras Espaciales": {
+        "name": "Garras Espaciales",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Sir Miauington": {
+        "name": "Sir Miauington",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Minino Estrella": {
+        "name": "Minino Estrella",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "Gato Barón": {
+        "name": "Gato Barón",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Lord Pelusín": {
+        "name": "Lord Pelusín",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Whiskerpuff": {
+        "name": "Whiskerpuff",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Miaury Poppins": {
+        "name": "Miaury Poppins",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "El Intrépido Felino": {
+        "name": "El Intrépido Felino",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Barón Ronroneo": {
+        "name": "Barón Ronroneo",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Peludo McFly": {
+        "name": "Peludo McFly",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Miau el Veloz": {
+        "name": "Miau el Veloz",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Felino Increíble": {
+        "name": "Felino Increíble",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "El Gato del Futuro": {
+        "name": "El Gato del Futuro",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Capitán Peludo": {
+        "name": "Capitán Peludo",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Comandante Purrfecto": {
+        "name": "Comandante Purrfecto",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Whiskers Supersónico": {
+        "name": "Whiskers Supersónico",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 3
+    },
+    "Felino de Acero": {
+        "name": "Felino de Acero",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "El Miau Galáctico": {
+        "name": "El Miau Galáctico",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Purrlock el Sabio": {
+        "name": "Purrlock el Sabio",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Whiskertron": {
+        "name": "Whiskertron",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Gatito Asombroso": {
+        "name": "Gatito Asombroso",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Pelusa Veloz": {
+        "name": "Pelusa Veloz",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Don Maullido": {
+        "name": "Don Maullido",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Capitán Purrstástico": {
+        "name": "Capitán Purrstástico",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Maullito Misterioso": {
+        "name": "Maullito Misterioso",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Minino del Espacio": {
+        "name": "Minino del Espacio",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Whiskers McZoom": {
+        "name": "Whiskers McZoom",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Zarpas Ninja": {
+        "name": "Zarpas Ninja",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Capitán Miauveloso": {
+        "name": "Capitán Miauveloso",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Bigotes Dinámico": {
+        "name": "Bigotes Dinámico",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Pelusa Infinita": {
+        "name": "Pelusa Infinita",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "Señor Ronquido": {
+        "name": "Señor Ronquido",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "El Felino Viajero": {
+        "name": "El Felino Viajero",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Ronroneo del Espacio": {
+        "name": "Ronroneo del Espacio",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Minino Intergaláctico": {
+        "name": "Minino Intergaláctico",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Felino Relámpago": {
+        "name": "Felino Relámpago",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Pelusón Salvaje": {
+        "name": "Pelusón Salvaje",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "Gatito Purrfecto": {
+        "name": "Gatito Purrfecto",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Whisker Guerrero": {
+        "name": "Whisker Guerrero",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Capitán Garras": {
+        "name": "Capitán Garras",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Miau el Imparable": {
+        "name": "Miau el Imparable",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Minino Tronador": {
+        "name": "Minino Tronador",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Garras Doradas": {
+        "name": "Garras Doradas",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Peludo Fantástico": {
+        "name": "Peludo Fantástico",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Misi Relámpago": {
+        "name": "Misi Relámpago",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Ronroneador Cósmico": {
+        "name": "Ronroneador Cósmico",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Bigotes Volador": {
+        "name": "Bigotes Volador",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Capitán Garritas": {
+        "name": "Capitán Garritas",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Señor Misi Aventurero": {
+        "name": "Señor Misi Aventurero",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Felino de Trueno": {
+        "name": "Felino de Trueno",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Pelusa Eterna": {
+        "name": "Pelusa Eterna",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Whiskers de Nube": {
+        "name": "Whiskers de Nube",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Maullido Celestial": {
+        "name": "Maullido Celestial",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Purrfectus Maximus": {
+        "name": "Purrfectus Maximus",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Capitán Suavidad": {
+        "name": "Capitán Suavidad",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Felino Supremo": {
+        "name": "Felino Supremo",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Gatito Real": {
+        "name": "Gatito Real",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Minino Poderoso": {
+        "name": "Minino Poderoso",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Peludo McWhiskers": {
+        "name": "Peludo McWhiskers",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Bigotes Intrépido": {
+        "name": "Bigotes Intrépido",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Whisker Fantasma": {
+        "name": "Whisker Fantasma",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Gatito Torbellino": {
+        "name": "Gatito Torbellino",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Pelusa de Nieve": {
+        "name": "Pelusa de Nieve",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "Garras Cósmicas": {
+        "name": "Garras Cósmicas",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Ronroneo Imparable": {
+        "name": "Ronroneo Imparable",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Zar de los Ronroneos": {
+        "name": "Zar de los Ronroneos",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 3
+    },
+    "El Miau Chiflado": {
+        "name": "El Miau Chiflado",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Capitán Bigotes Largos": {
+        "name": "Capitán Bigotes Largos",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Sir Zarpas de Plata": {
+        "name": "Sir Zarpas de Plata",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Minino Majestuoso": {
+        "name": "Minino Majestuoso",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Miauestro del Tiempo": {
+        "name": "Miauestro del Tiempo",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Pelusín Peligroso": {
+        "name": "Pelusín Peligroso",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Señor Garritas Locas": {
+        "name": "Señor Garritas Locas",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 3
+    },
+    "Purrseidon": {
+        "name": "Purrseidon",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Whiskers el Mítico": {
+        "name": "Whiskers el Mítico",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Misi Alado": {
+        "name": "Misi Alado",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Felino Supernova": {
+        "name": "Felino Supernova",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Zarpas de Trueno": {
+        "name": "Zarpas de Trueno",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Don Felis Catus": {
+        "name": "Don Felis Catus",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Señor Peludo de León": {
+        "name": "Señor Peludo de León",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Capitán Cola Suave": {
+        "name": "Capitán Cola Suave",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Ronroneo Misterioso": {
+        "name": "Ronroneo Misterioso",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Whiskertronix": {
+        "name": "Whiskertronix",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Maullido Espacial": {
+        "name": "Maullido Espacial",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Barón Misi": {
+        "name": "Barón Misi",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "El Gato Oculto": {
+        "name": "El Gato Oculto",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Purrlock el Grande": {
+        "name": "Purrlock el Grande",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Gato Destrozón": {
+        "name": "Gato Destrozón",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Pelusín Mágico": {
+        "name": "Pelusín Mágico",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Gatito Aventurero": {
+        "name": "Gatito Aventurero",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Capitán Miau Supersónico": {
+        "name": "Capitán Miau Supersónico",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Whiskers el Cazador": {
+        "name": "Whiskers el Cazador",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Señor Zarpitas de Seda": {
+        "name": "Señor Zarpitas de Seda",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Garras Afiladas": {
+        "name": "Garras Afiladas",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Gatón del Universo": {
+        "name": "Gatón del Universo",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Miau Volcánico": {
+        "name": "Miau Volcánico",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Bigotes Galácticos": {
+        "name": "Bigotes Galácticos",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Ronroneo Espacial": {
+        "name": "Ronroneo Espacial",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Señor Garras Veloz": {
+        "name": "Señor Garras Veloz",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Capitán Maullido Estelar": {
+        "name": "Capitán Maullido Estelar",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Minino Supremo": {
+        "name": "Minino Supremo",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Don Gato Sideral": {
+        "name": "Don Gato Sideral",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Peluso Cósmico": {
+        "name": "Peluso Cósmico",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Gatito Tronador": {
+        "name": "Gatito Tronador",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Bigotes el Terrible": {
+        "name": "Bigotes el Terrible",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Capitán Garritas de Fuego": {
+        "name": "Capitán Garritas de Fuego",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Maullido de Acero": {
+        "name": "Maullido de Acero",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Felino Espectacular": {
+        "name": "Felino Espectacular",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Whisker Whirlwind": {
+        "name": "Whisker Whirlwind",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Don Zarpazo": {
+        "name": "Don Zarpazo",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "El Miau Tormentoso": {
+        "name": "El Miau Tormentoso",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Pelusín de los Cielos": {
+        "name": "Pelusín de los Cielos",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Garras Felinas": {
+        "name": "Garras Felinas",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Sir Peludo Intrépido": {
+        "name": "Sir Peludo Intrépido",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Purrtástico": {
+        "name": "Purrtástico",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "El Magnate del Miau": {
+        "name": "El Magnate del Miau",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Gatito Colosal": {
+        "name": "Gatito Colosal",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Purrsephine": {
+        "name": "Purrsephine",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Ronroneador Épico": {
+        "name": "Ronroneador Épico",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Gato Galletero": {
+        "name": "Gato Galletero",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Peludo Galán": {
+        "name": "Peludo Galán",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Señor Whiskers McFur": {
+        "name": "Señor Whiskers McFur",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Miau Desafiante": {
+        "name": "Miau Desafiante",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Don Zarpitas Supremos": {
+        "name": "Don Zarpitas Supremos",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Capitán Felino Loco": {
+        "name": "Capitán Felino Loco",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "El Gran Maullido": {
+        "name": "El Gran Maullido",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Bigotes del Desierto": {
+        "name": "Bigotes del Desierto",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Purrmagnífico": {
+        "name": "Purrmagnífico",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "Misi Púrpura": {
+        "name": "Misi Púrpura",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Felino de las Sombras": {
+        "name": "Felino de las Sombras",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Gatito de las Estrellas": {
+        "name": "Gatito de las Estrellas",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Peludo Relámpago": {
+        "name": "Peludo Relámpago",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Capitán Ronroneo Cósmico": {
+        "name": "Capitán Ronroneo Cósmico",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Whiskers Zarpante": {
+        "name": "Whiskers Zarpante",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Garras Legendarias": {
+        "name": "Garras Legendarias",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Purrberón de Miau": {
+        "name": "Purrberón de Miau",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Señor Ronquido Majestuoso": {
+        "name": "Señor Ronquido Majestuoso",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 3
+    },
+    "Sir Misi del Reino": {
+        "name": "Sir Misi del Reino",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Gatote el Poderoso": {
+        "name": "Gatote el Poderoso",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Pelusa Salvavidas": {
+        "name": "Pelusa Salvavidas",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Zarpas de Nieve": {
+        "name": "Zarpas de Nieve",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "El Miau Veloz": {
+        "name": "El Miau Veloz",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Whiskers McFurioso": {
+        "name": "Whiskers McFurioso",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Capitán Felino Feroz": {
+        "name": "Capitán Felino Feroz",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Purrlock Pelusón": {
+        "name": "Purrlock Pelusón",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Gato Colosal": {
+        "name": "Gato Colosal",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Bigotes del Océano": {
+        "name": "Bigotes del Océano",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Don Gato Aventurero": {
+        "name": "Don Gato Aventurero",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Peludo Zarpón": {
+        "name": "Peludo Zarpón",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Minino Resplandeciente": {
+        "name": "Minino Resplandeciente",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Capitán Zarpas de Fuego": {
+        "name": "Capitán Zarpas de Fuego",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Felino Veloz": {
+        "name": "Felino Veloz",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "El Gato Despiadado": {
+        "name": "El Gato Despiadado",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Purrinator": {
+        "name": "Purrinator",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Miau de Acero": {
+        "name": "Miau de Acero",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Whiskers Intrépido": {
+        "name": "Whiskers Intrépido",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Peluso Ronroneante": {
+        "name": "Peluso Ronroneante",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Maullido Galáctico": {
+        "name": "Maullido Galáctico",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Señor Zarpitas Peligroso": {
+        "name": "Señor Zarpitas Peligroso",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Ronroneo Real": {
+        "name": "Ronroneo Real",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "Bigotes Maravilla": {
+        "name": "Bigotes Maravilla",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "Gatito del Espacio": {
+        "name": "Gatito del Espacio",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Capitán Pelusa Divina": {
+        "name": "Capitán Pelusa Divina",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Whiskerstorm": {
+        "name": "Whiskerstorm",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Felino Destructor": {
+        "name": "Felino Destructor",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Señor Garras Letales": {
+        "name": "Señor Garras Letales",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Pelusa Ronquido": {
+        "name": "Pelusa Ronquido",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Miau Supremo": {
+        "name": "Miau Supremo",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "El Felino Sombrío": {
+        "name": "El Felino Sombrío",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Whiskers el Navegante": {
+        "name": "Whiskers el Navegante",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Peludo Asombroso": {
+        "name": "Peludo Asombroso",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Minino de Fuego": {
+        "name": "Minino de Fuego",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Capitán Zarpitas Supremos": {
+        "name": "Capitán Zarpitas Supremos",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 3
+    },
+    "Don Ronroneo Cósmico": {
+        "name": "Don Ronroneo Cósmico",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "El Miau Relámpago": {
+        "name": "El Miau Relámpago",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Sir Peludo Majestuoso": {
+        "name": "Sir Peludo Majestuoso",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Gatito Zarpante": {
+        "name": "Gatito Zarpante",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Whiskertron Supremo": {
+        "name": "Whiskertron Supremo",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 3
+    },
+    "Misi el Misterioso": {
+        "name": "Misi el Misterioso",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Peluso Aventurero": {
+        "name": "Peluso Aventurero",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Bigotes de Trueno": {
+        "name": "Bigotes de Trueno",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Señor Miau Relámpago": {
+        "name": "Señor Miau Relámpago",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Capitán Felino Reluciente": {
+        "name": "Capitán Felino Reluciente",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Garras Galácticas": {
+        "name": "Garras Galácticas",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Purrlock Supremo": {
+        "name": "Purrlock Supremo",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 3
+    },
+    "Minino Tormenta": {
+        "name": "Minino Tormenta",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Miau Cósmico": {
+        "name": "Miau Cósmico",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Zar Misi": {
+        "name": "Zar Misi",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "Purrón del Espacio": {
+        "name": "Purrón del Espacio",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Pelusa Voladora": {
+        "name": "Pelusa Voladora",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Felino Fantasmagórico": {
+        "name": "Felino Fantasmagórico",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Señor Bigotes de Hierro": {
+        "name": "Señor Bigotes de Hierro",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Capitán Ronroneo Celestial": {
+        "name": "Capitán Ronroneo Celestial",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Peluso Rápido": {
+        "name": "Peluso Rápido",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Whiskers del Viento": {
+        "name": "Whiskers del Viento",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "Gatito Majestuoso": {
+        "name": "Gatito Majestuoso",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Misi Trueno": {
+        "name": "Misi Trueno",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "Ronroneador Eterno": {
+        "name": "Ronroneador Eterno",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "El Zarpas Veloz": {
+        "name": "El Zarpas Veloz",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Pelusa Colosal": {
+        "name": "Pelusa Colosal",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Capitán Felino Intrépido": {
+        "name": "Capitán Felino Intrépido",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Whiskerpuff el Grande": {
+        "name": "Whiskerpuff el Grande",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Señor Garritas Estelares": {
+        "name": "Señor Garritas Estelares",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Gato del Trueno": {
+        "name": "Gato del Trueno",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 1
+    },
+    "Bigotes de las Nubes": {
+        "name": "Bigotes de las Nubes",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Rey Misi Majestuoso": {
+        "name": "Rey Misi Majestuoso",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Sir Bigotes Divinos": {
+        "name": "Sir Bigotes Divinos",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Don Zarpas del Viento": {
+        "name": "Don Zarpas del Viento",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Capitán Pelusa Brillante": {
+        "name": "Capitán Pelusa Brillante",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "El Gran Maullido Real": {
+        "name": "El Gran Maullido Real",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Gatito Tormentoso": {
+        "name": "Gatito Tormentoso",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Pelusín Estelar": {
+        "name": "Pelusín Estelar",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Whiskers Destructor": {
+        "name": "Whiskers Destructor",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Señor Garras Supremas": {
+        "name": "Señor Garras Supremas",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 5
+    },
+    "Miau Alado": {
+        "name": "Miau Alado",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Ronroneador Inmortal": {
+        "name": "Ronroneador Inmortal",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Capitán Maullido Poderoso": {
+        "name": "Capitán Maullido Poderoso",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Minino Zarpas de Luz": {
+        "name": "Minino Zarpas de Luz",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Bigotes Cósmicos": {
+        "name": "Bigotes Cósmicos",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Felino Reluciente": {
+        "name": "Felino Reluciente",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 2
+    },
+    "Garras Afiladas de Plata": {
+        "name": "Garras Afiladas de Plata",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Miau Misterioso": {
+        "name": "Miau Misterioso",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Don Zarpitas Intrépido": {
+        "name": "Don Zarpitas Intrépido",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Pelusa Milenaria": {
+        "name": "Pelusa Milenaria",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Sir Felino Aventurero": {
+        "name": "Sir Felino Aventurero",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Rey Ronroneo": {
+        "name": "Rey Ronroneo",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Bigotes el Intrépido": {
+        "name": "Bigotes el Intrépido",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 3
+    },
+    "Pelusa de las Sombras": {
+        "name": "Pelusa de las Sombras",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Capitán Felino Estelar": {
+        "name": "Capitán Felino Estelar",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Garras del Espacio": {
+        "name": "Garras del Espacio",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "El Señor Ronquido": {
+        "name": "El Señor Ronquido",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Whiskers Volador": {
+        "name": "Whiskers Volador",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Don Gato Majestuoso": {
+        "name": "Don Gato Majestuoso",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Señor Misi Supremacía": {
+        "name": "Señor Misi Supremacía",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Peluso de las Alturas": {
+        "name": "Peluso de las Alturas",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Felino Invencible": {
+        "name": "Felino Invencible",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Bigotes Tempestuoso": {
+        "name": "Bigotes Tempestuoso",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Capitán Zarpas de Trueno": {
+        "name": "Capitán Zarpas de Trueno",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Pelusa Legendaria": {
+        "name": "Pelusa Legendaria",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Minino Brillante": {
+        "name": "Minino Brillante",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "El Zarpas Cósmico": {
+        "name": "El Zarpas Cósmico",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Ronroneo Divino": {
+        "name": "Ronroneo Divino",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Whiskerpuff Estelar": {
+        "name": "Whiskerpuff Estelar",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Capitán Ronquido Cósmico": {
+        "name": "Capitán Ronquido Cósmico",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Señor Garritas Letales": {
+        "name": "Señor Garritas Letales",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Felino Galáctico": {
+        "name": "Felino Galáctico",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Whiskers de Plata": {
+        "name": "Whiskers de Plata",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Miau Destructor": {
+        "name": "Miau Destructor",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Capitán Bigotes Legendarios": {
+        "name": "Capitán Bigotes Legendarios",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "Zarpas de Hierro": {
+        "name": "Zarpas de Hierro",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 4
+    },
+    "Rey Peludo": {
+        "name": "Rey Peludo",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "El Gatito Resplandeciente": {
+        "name": "El Gatito Resplandeciente",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 3
+    },
+    "Pelusa Poderosa": {
+        "name": "Pelusa Poderosa",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Minino Imparable": {
+        "name": "Minino Imparable",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Don Ronroneo": {
+        "name": "Don Ronroneo",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Sir Zarpas Intrépido": {
+        "name": "Sir Zarpas Intrépido",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 5
+    },
+    "Bigotes el Misterioso": {
+        "name": "Bigotes el Misterioso",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Garras Salvajes": {
+        "name": "Garras Salvajes",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 3
+    },
+    "Peludo Relampagueante": {
+        "name": "Peludo Relampagueante",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 1
+    },
+    "Capitán Misi Feroz": {
+        "name": "Capitán Misi Feroz",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Rey de los Maullidos": {
+        "name": "Rey de los Maullidos",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 1
+    },
+    "El Señor Felino": {
+        "name": "El Señor Felino",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 5
+    },
+    "Miau de las Sombras": {
+        "name": "Miau de las Sombras",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 2
+    },
+    "Minino Relámpago": {
+        "name": "Minino Relámpago",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 4
+    },
+    "Gato de Trueno": {
+        "name": "Gato de Trueno",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4
+    },
+    "Whiskers Majestuoso": {
+        "name": "Whiskers Majestuoso",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 3
+    },
+    "Pelusa del Espacio": {
+        "name": "Pelusa del Espacio",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 2
+    },
+    "Don Garras Intrépido": {
+        "name": "Don Garras Intrépido",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4
+    }
+}

@@ -6,12 +6,12 @@ from tqdm import tqdm
 api_key = 'sk-PHlWNuQNjG2A48OIu__ftS5AjpQ79Vv1sDTs5IpCYIT3BlbkFJtOLnQ-eL-LkQByMqWSSOb39ZZyeQ5yX5DnJ5kjd_UA'
 
 # Cargar el archivo JSON
-file_path = 'cats_json_es.json'
+file_path = 'breeds_es.json'
 with open(file_path, 'r', encoding='utf-8') as f:
     cats_data = json.load(f)
 
 # Función para traducir texto usando la API de OpenAI
-def translate_text(text, target_language='es'):
+def translate_text(text, target_language='spanish'):
     url = "https://api.openai.com/v1/chat/completions"
     
     headers = {
@@ -39,12 +39,12 @@ def translate_text(text, target_language='es'):
         return text   # Devolver el texto original si hay un error
 
 # Iterar sobre cada elemento del JSON y traducir los valores deseados
-for cat in tqdm(cats_data[10:]):
+for cat in tqdm(cats_data):
     if 'description' in cat:
         cat['description'] = translate_text(cat['description'])
 
 
-translated_file_path = 'cats_json_es_translated.json'
+translated_file_path = 'breeds_es_translated.json'
 with open(translated_file_path, 'w', encoding='utf-8') as f:
     json.dump(cats_data, f, ensure_ascii=False, indent=4)
 

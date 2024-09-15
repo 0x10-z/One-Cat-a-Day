@@ -37,7 +37,7 @@ export default function Detail() {
             <View style={styles.content}>
               <Image
                 className="mb-4 rounded-xl"
-                source={{ uri: catInfo.image.url }}
+                source={{ uri: catInfo.url }}
                 style={styles.catImage}
               />
               <Text style={styles.catName}>{catInfo.name}</Text>
@@ -45,16 +45,22 @@ export default function Detail() {
               <LifeSpan score={catInfo.life_span} maxScore={20} />
               <Text style={styles.description}>{catInfo.description}</Text>
               <Text style={styles.attribute}>
-                <Text style={styles.attributeLabel}>Temperamento: </Text>
-                {catInfo.temperament}
+                <Text style={styles.attributeLabel}>Peso: </Text>(
+                {catInfo.weight} kg)
               </Text>
               <Text style={styles.attribute}>
-                <Text style={styles.attributeLabel}>Peso: </Text>
-                {catInfo.weight.imperial} lbs ({catInfo.weight.metric} kg)
+                <Text style={styles.attributeLabel}>Inteligencia: </Text>
+                {catInfo.intelligence}/5
               </Text>
               <Text style={styles.attribute}>
                 <Text style={styles.attributeLabel}>Nivel de amor: </Text>
-                {catInfo.affection_level}/5
+                {catInfo.love}/5
+              </Text>
+              <Text style={styles.attribute}>
+                <Text style={styles.attributeLabel}>
+                  Probabilidad de romper algo:{" "}
+                </Text>
+                {catInfo.exploding_rate}/5
               </Text>
               <Link
                 href="/cats"
