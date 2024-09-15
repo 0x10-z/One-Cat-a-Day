@@ -86,7 +86,7 @@
     "obtained": false,
     "criteria": {
       "type": "specific_cat",
-      "catId": "Coffee"
+      "catId": "coffee"
     }
   }
 ]
