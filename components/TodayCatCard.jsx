@@ -2,12 +2,33 @@ import React, { useState, useEffect } from "react";
 import { Text, View, Image, StyleSheet, TouchableOpacity } from "react-native";
 import * as Animatable from "react-native-animatable";
 import { BombIcon, BrainIcon, LoveIcon, WeightScaleIcon } from "./Icons";
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default function TodayCatCard({ catInfo }) {
   const [loading, setLoading] = useState(false);
   const [hasSavedCat, setHasSavedCat] = useState(false); // Estado para saber si el gato ya ha sido guardado
   const [timeRemaining, setTimeRemaining] = useState("");
   const [animationType, setAnimationType] = useState("pulse"); // Animación inicial
+
+  useEffect(() => {
+    // Cargar los IDs de los gatos guardados y comprobar si el ID de hoy ya está guardado
+    const checkSavedCat = async () => {
+      try {
+        const storedCats = await AsyncStorage.getItem("savedCats");
+        const savedCats = storedCats ? JSON.parse(storedCats) : [];
+
+        // Comprobar si el ID del gato de hoy ya está guardado
+        if (savedCats.includes(catInfo.id)) {
+          setHasSavedCat(true);
+        }
+      } catch (error) {
+        console.error("Error al cargar los gatos guardados:", error);
+      }
+    };
+
+    checkSavedCat();
+  }, [catInfo.id]);
+
   useEffect(() => {
     const calculateTimeRemaining = () => {
       const now = new Date();
@@ -35,16 +56,30 @@ export default function TodayCatCard({ catInfo }) {
     return () => clearInterval(intervalId);
   }, []);
 
-  const handleGetCard = () => {
+  const handleGetCard = async () => {
     setLoading(true);
 
     // Cambia la animación a "bounceOut"
     setAnimationType("bounceOut");
 
     // Después de la animación, guarda el gato y cambia el estado
-    // eslint-disable-next-line no-undef
-    setTimeout(() => {
-      setHasSavedCat(true);
+    setTimeout(async () => {
+      try {
+        // Guardar el ID del gato de hoy en AsyncStorage
+        const storedCats = await AsyncStorage.getItem("savedCats");
+        const savedCats = storedCats ? JSON.parse(storedCats) : [];
+
+        // Solo guardar si el gato aún no ha sido guardado
+        if (!savedCats.includes(catInfo.id)) {
+          savedCats.push(catInfo.id);
+          await AsyncStorage.setItem("savedCats", JSON.stringify(savedCats));
+        }
+
+        setHasSavedCat(true);
+      } catch (error) {
+        console.error("Error al guardar el gato:", error);
+      }
+
       setLoading(false);
     }, 1200); // El tiempo debe coincidir con la duración de la animación
   };
