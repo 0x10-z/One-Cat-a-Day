@@ -20,7 +20,7 @@ def generate_cat_json(directory):
                 "id": filename,
                 "name":  cat['name'],
                 "description": cat['description'],
-                "tagline": cat['tagline'],
+                "years": cat['years'],
                 "weight": cat['weight'],
                 "intelligence": cat['intelligence'],
                 "love": cat['love'],
