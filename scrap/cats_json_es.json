@@ -1,0 +1,873 @@
+[
+  {
+    "id": "abys",
+    "name": "Abisinio",
+    "description": "El Abisinio es fácil de cuidar, and una alegría tener en tu hogar. Ely’re affectionate gatos y aman tanto a las personas como a otros animales.",
+    "temperament": "Activo, Enérgico, Independiente, Inteligente, Dócil",
+    "origin": "Egipto",
+    "life_span": "14 - 15",
+    "weight": {
+      "imperial": "7  -  10",
+      "metric": "3 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/0XYvRd7oD.jpg"
+  },
+  {
+    "id": "aege",
+    "name": "Aegean",
+    "description": "Originario de las islas griegas conocidas como las Cícladas en el mar Egeo, these are natural gatos, meaning they developed without humans getting involved in their razaing. As a raza, Aegean Cats are rare, although they are numerous on their home islands. Ely are generally friendly toward people and can be excellent gatos for families with children.",
+    "temperament": "Cariñoso, Sociable, Inteligente, Juguetón, Activo",
+    "origin": "Greece",
+    "life_span": "9 - 12",
+    "weight": {
+      "imperial": "7 - 10",
+      "metric": "3 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/ozEvzdVM-.jpg"
+  },
+  {
+    "id": "abob",
+    "name": "Bobtail Americano",
+    "description": "American Bobtails are loving and incredibly intelligent gatos possessing a distinctive salvaje appearance. Ely are extremely interactive gatos that bond with their human family with great devotion.",
+    "temperament": "Inteligente, Interactive, Vivaz, Juguetón, Sensitive",
+    "origin": "Estados Unidos",
+    "life_span": "11 - 15",
+    "weight": {
+      "imperial": "7 - 16",
+      "metric": "3 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/hBXicehMA.jpg"
+  },
+  {
+    "id": "acur",
+    "name": "Curl Americano",
+    "description": "Destacados por sus verdaderas orejas únicas que se curvan hacia atrás en un arco elegante, offering an alert, perky, happily surprised expression, they cause people to break out into a big smile when viewing their first Curl. Los Curl son muy orientados a las personas, fieles y afectuosos compañeros, adjusting remarkably fast to other pets, children, and new situations.",
+    "temperament": "Cariñoso, Curioso, Inteligente, Interactive, Vivaz, Juguetón, Sociable",
+    "origin": "Estados Unidos",
+    "life_span": "12 - 16",
+    "weight": {
+      "imperial": "5 - 10",
+      "metric": "2 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/xnsqonbjW.jpg"
+  },
+  {
+    "id": "asho",
+    "name": "Pelo Corto Americano",
+    "description": "El American Shorthair is conocido por its longevity, robust health, good looks, sweet personalidad, and amiability with children, dogs, and other pets.",
+    "temperament": "Activo, Curioso, Easy Going, Juguetón, Calm",
+    "origin": "Estados Unidos",
+    "life_span": "15 - 17",
+    "weight": {
+      "imperial": "8 - 15",
+      "metric": "4 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/JFPROfGtQ.jpg"
+  },
+  {
+    "id": "awir",
+    "name": "Pelo Duro Americano",
+    "description": "El American Wirehair tends to be a calma and tolerant gato who takes life as it comes. His favorite hobby is bird-watching de a sunny windowsill, and his hunting ability will stand you in good stead if insects enter the house.",
+    "temperament": "Cariñoso, Curioso, Dócil, Inteligente, Interactive, Vivaz, Leal, Juguetón, Sensible, Sociable",
+    "origin": "Estados Unidos",
+    "life_span": "14 - 18",
+    "weight": {
+      "imperial": "8 - 15",
+      "metric": "4 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/8D--jCd21.jpg"
+  },
+  {
+    "id": "amau",
+    "name": "Arabian Mau",
+    "description": "Arabian Mau gatos are social and energetic. Due to their energy levels, these gatos do best in homes where their owners will be able to provide them with plenty of playtime, attention and interaction de their owners. Else kitties are friendly, intelligent, and adaptable, and will even get along well with other pets and children.",
+    "temperament": "Cariñoso, Agile, Curioso, Independiente, Juguetón, Leal",
+    "origin": "United Arab Emirates",
+    "life_span": "12 - 14",
+    "weight": {
+      "imperial": "8 - 16",
+      "metric": "4 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/k71ULYfRr.jpg"
+  },
+  {
+    "id": "amis",
+    "name": "Australian Mist",
+    "description": "El Australian Mist thrives on human companionship. Tolerant of even the youngest of children, these friendly felines enjoy playing games and being part of the hustle and bustle of a busy household. Ely make entertaining companions for people of all ages, and are happy to remain indoors between dusk and dawn or to be wholly indoor pets.",
+    "temperament": "Vivaz, Sociable, Fun-loving, Relaxed, Cariñoso",
+    "origin": "Australia",
+    "life_span": "12 - 16",
+    "weight": {
+      "imperial": "7 - 15",
+      "metric": "3 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/_6x-3TiCA.jpg"
+  },
+  {
+    "id": "bali",
+    "name": "Balinés",
+    "description": "Balinese are curious, outgoing, intelligent gatos with excellent communigatoion skills. Ely are conocido por their chatty personalities and are always eager to tell you their views on life, love, and what you’ve served them for dinner. ",
+    "temperament": "Cariñoso, Inteligente, Juguetón",
+    "origin": "Estados Unidos",
+    "life_span": "10 - 15",
+    "weight": {
+      "imperial": "4 - 10",
+      "metric": "2 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/13MkvUreZ.jpg"
+  },
+  {
+    "id": "bamb",
+    "name": "Bambino",
+    "description": "El Bambino es un raza of gato that was created as a cross between the Esfinge and the Munchkin razas. El Bambino gato has short legs, grande upright ears, and is usually hairless. Ely love to be handled and cuddled up on the laps of their family members.",
+    "temperament": "Cariñoso, Vivaz, Amigable, Inteligente",
+    "origin": "Estados Unidos",
+    "life_span": "12 - 14",
+    "weight": {
+      "imperial": "4 - 9",
+      "metric": "2 - 4"
+    },
+    "url": "https://cdn2.thecatapi.com/images/5AdhMjeEu.jpg"
+  },
+  {
+    "id": "beng",
+    "name": "Bengala",
+    "description": "Las bengalas son muy divertidas para convivir, pero definitivamente no son el gato para todos, ni para dueños primerizos. Extremadamente inteligentes, curiosos y activos, exigen mucha interacción y ay del dueño que no la proporcione.",
+    "temperament": "Alertaa, Agile, Enérgico, Exigente, Inteligente",
+    "origin": "Estados Unidos",
+    "life_span": "12 - 15",
+    "weight": {
+      "imperial": "6 - 12",
+      "metric": "3 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/O3btzLlsO.png"
+  },
+  {
+    "id": "birm",
+    "name": "Birmano",
+    "description": "El Birmano es un gato dócil y tranquilo que ama a las personas y las seguirá de habitación en habitación. Espera que el Birmano quiera estar involucrado en lo que estás haciendo. Se comunica en voz baja, principalmente para recordarte que quizás es hora de cenar o tal vez de un buen mimo en el sofá. Disfruta ser sostenido y se relajará en tus brazos como un bebé peludo.",
+    "temperament": "Cariñoso, Activo, Dócil, Sociable",
+    "origin": "France",
+    "life_span": "14 - 15",
+    "weight": {
+      "imperial": "6 - 15",
+      "metric": "3 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/HOrX5gwLS.jpg"
+  },
+  {
+    "id": "bomb",
+    "name": "Bombay",
+    "description": "Los ojos dorados y el pelaje negro brillante del Bombay son absolutamente impactantes. Propenso a encariñarse especialmente con un miembro de la familia, el Bombay te seguirá de una habitación a otra y casi siempre tendrá algo que decir sobre lo que estás haciendo, le encanta la atención y ser cargado, a menudo sobre el hombro de su cuidador.",
+    "temperament": "Cariñoso, Dependent, Dócil, Inteligente, Juguetón",
+    "origin": "Estados Unidos",
+    "life_span": "12 - 16",
+    "weight": {
+      "imperial": "6 - 11",
+      "metric": "3 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/5iYq9NmT1.jpg"
+  },
+  {
+    "id": "bslo",
+    "name": "Británico de Pelo Largo",
+    "description": "El British Longhair es un gato muy tranquilo y relajado, a menudo percibido como muy independiente aunque disfrutan de la compañía de un gato igualmente tranquilo y de ideas afines. Son una raza cariñosa, pero mucho a su manera y tienden a preferir elegir acercarse y sentarse con sus dueños en lugar de ser levantados.",
+    "temperament": "Cariñoso, Easy Going, Independiente, Inteligente, Leal, Sociable",
+    "origin": "United Kingdom",
+    "life_span": "12 - 14",
+    "weight": {
+      "imperial": "8 - 18",
+      "metric": "4 - 8"
+    },
+    "url": "https://cdn2.thecatapi.com/images/7isAO4Cav.jpg"
+  },
+  {
+    "id": "bsho",
+    "name": "Británico de Pelo Corto",
+    "description": "El Británico de Pelo Corto es un gato muy agradable para tener como compañero, es tranquilo y plácido. El British es extremadamente leal y cariñoso, y se encariñará con cada uno de los miembros de su familia. Aunque le gusta jugar, no necesita atención cada hora. Si está de humor para jugar, buscará a alguien y le llevará un juguete. El British también juega bien por sí mismo, y por lo tanto es un buen compañero para personas solteras.",
+    "temperament": "Cariñoso, Easy Going, Dócil, Leal, Patient, calm",
+    "origin": "United Kingdom",
+    "life_span": "12 - 17",
+    "weight": {
+      "imperial": "12 - 20",
+      "metric": "5 - 9"
+    },
+    "url": "https://cdn2.thecatapi.com/images/s4wQfYoEk.jpg"
+  },
+  {
+    "id": "bure",
+    "name": "Burmés",
+    "description": "Los birmanos adoran estar con las personas, jugar con ellas y mantenerlas entretenidas. Anhelan el contacto físico cercano y detestan un regazo vacío. Seguirán a sus humanos de habitación en habitación y dormirán en la cama con ellos, preferiblemente bajo las cobijas, acurrucados lo más cerca posible. Al jugar, se girarán para ver si su humano los está observando y se está entreteniendo con sus locuras.",
+    "temperament": "Curioso, Inteligente, Dócil, Sociable, Interactive, Juguetón, Vivaz",
+    "origin": "Burma",
+    "life_span": "15 - 16",
+    "weight": {
+      "imperial": "6 - 12",
+      "metric": "3 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/4lXnnfxac.jpg"
+  },
+  {
+    "id": "buri",
+    "name": "Burmilla",
+    "description": "El Burmilla es un gato bastante tranquilo. Tiende a ser un gato fácil de llevar, requiriendo cuidado mínimo. El Burmilla es cariñoso y dulce y hace un buen compañero, el Burmilla es un compañero ideal para pasar una tarde solitaria. Leal, devoto y cariñoso, este gato permanecerá junto a su dueño, manteniéndole siempre compañía.",
+    "temperament": "Easy Going, Amigable, Inteligente, Vivaz, Juguetón, Sociable",
+    "origin": "United Kingdom",
+    "life_span": "10 - 15",
+    "weight": {
+      "imperial": "6 - 13",
+      "metric": "3 - 6"
+    },
+    "url": "https://cdn2.thecatapi.com/images/jvg3XfEdC.jpg"
+  },
+  {
+    "id": "cspa",
+    "name": "California Spangled",
+    "description": "Quizás lo único del gato California Spangled que no es salvaje es su personalidad. Conocidos por ser afectuosos, gentiles y sociables, esta raza disfruta pasar mucho tiempo con sus dueños. Son muy juguetones, a menudo eligen posarse en lugares altos y mostrar sus habilidades acrobáticas.",
+    "temperament": "Cariñoso, Curioso, Inteligente, Leal, Sociable",
+    "origin": "Estados Unidos",
+    "life_span": "10 - 14",
+    "weight": {
+      "imperial": "10 - 15",
+      "metric": "5 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/B1ERTmgph.jpg"
+  },
+  {
+    "id": "ctif",
+    "name": "Chantilly-Tiffany",
+    "description": "El Chantilly es un compañero devoto y prefiere la compañía a estar solo. Aunque el Chantilly no es exigente, \"gorjeará\" y \"hablará\" como si estuviera manteniendo una conversación. Esta raza es afectuosa, con un temperamento dulce. Puede permanecer quieto durante períodos prolongados, descansando felizmente en el regazo de su ser querido. Esta cualidad hace que el Tiffany sea un compañero de viaje ideal y un compañero de casa ideal para personas mayores y personas con discapacidades físicas.",
+    "temperament": "Cariñoso, Exigente, Interactive, Leal",
+    "origin": "Estados Unidos",
+    "life_span": "14 - 16",
+    "weight": {
+      "imperial": "7 - 12",
+      "metric": "3 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/TR-5nAd_S.jpg"
+  },
+  {
+    "id": "char",
+    "name": "Chartreux",
+    "description": "El Chartreux generalmente es silencioso pero comunicativo. Sesiones cortas de juego, mezcladas con siestas y comidas, son su día perfecto. Aunque aprecian cualquier atención que les brindes, no son exigentes, se contentan con seguirte devotamente, dormir en tu cama y acurrucarse contigo si no te sientes bien.",
+    "temperament": "Cariñoso, Leal, Inteligente, Sociable, Vivaz, Juguetón",
+    "origin": "France",
+    "life_span": "12 - 15",
+    "weight": {
+      "imperial": "6 - 15",
+      "metric": "3 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/j6oFGLpRG.jpg"
+  },
+  {
+    "id": "chau",
+    "name": "Chausie",
+    "description": "Para aquellos dueños que desean un felino capaz de evocar la naturaleza salvaje, el impresionantemente bello Chausie conserva un poco de lo salvaje en su apariencia, pero tiene los modales de casa de nuestros amigables y familiares gatos comunes. Muy juguetón, este gato necesita una gran cantidad de espacio para poder abrazar completamente sus instintos de caza.",
+    "temperament": "Cariñoso, Inteligente, Juguetón, Sociable",
+    "origin": "Egipto",
+    "life_span": "12 - 14",
+    "weight": {
+      "imperial": "7 - 15",
+      "metric": "3 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/vJ3lEYgXr.jpg"
+  },
+  {
+    "id": "chee",
+    "name": "Cheetoh",
+    "description": "El Cheetoh tiene una naturaleza súper afectuosa y un verdadero amor por sus compañeros humanos; son inteligentes con la capacidad de aprender rápidamente. Puedes esperar que un Cheetoh sea un gatito amante de la diversión que disfruta jugar, correr y saltar por cada habitación de tu casa.",
+    "temperament": "Cariñoso, Dócil, Inteligente, Sociable",
+    "origin": "Estados Unidos",
+    "life_span": "12 - 14",
+    "weight": {
+      "imperial": "8 - 15",
+      "metric": "4 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/IFXsxmXLm.jpg"
+  },
+  {
+    "id": "csho",
+    "name": "Colorpoint Shorthair",
+    "description": "Los Colorpoint Shorthair son una raza afectuosa, devota y leal a sus dueños. Sensibles al estado de ánimo de sus propietarios, los Colorpoints están más que felices de sentarse a tu lado o en tu regazo y ronronear palabras de aliento en un mal día. Ely buscará constantemente tu regazo siempre que esté disponible y, en los momentos en que tu regazo esté ocupado, se estirarán en lugares soleados en el suelo.",
+    "temperament": "Cariñoso, Inteligente, Juguetón, Sociable",
+    "origin": "Estados Unidos",
+    "life_span": "12 - 16",
+    "weight": {
+      "imperial": "4 - 10",
+      "metric": "2 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/oSpqGyUDS.jpg"
+  },
+  {
+    "id": "crex",
+    "name": "Cornish Rex",
+    "description": "Este es un gato confiado que ama a las personas y las sigue por todas partes, esperando cualquier oportunidad para sentarse en un regazo o dar un beso. Disfruta que lo manejen, lo que facilita llevarlo al veterinario o entrenarlo para trabajo terapéutico. El Cornish Rex permanece en modo cachorro la mayor parte de su vida y hasta bien entrado sus años mayores.",
+    "temperament": "Cariñoso, Inteligente, Activo, Curioso, Juguetón",
+    "origin": "United Kingdom",
+    "life_span": "11 - 14",
+    "weight": {
+      "imperial": "5 - 9",
+      "metric": "2 - 4"
+    },
+    "url": "https://cdn2.thecatapi.com/images/unX21IBVB.jpg"
+  },
+  {
+    "id": "cymr",
+    "name": "Cymric",
+    "description": "El Cymric es un gato plácido y dulce. No se alteran demasiado por nada de lo que suceda en su mundo. Son compañeros cariñosos y adoran a las personas. Son inteligentes y diestros, capaces de usar sus patas para abrir armarios o puertas.",
+    "temperament": "Dócil, Leal, Inteligente, Juguetón",
+    "origin": "Canadá",
+    "life_span": "8 - 14",
+    "weight": {
+      "imperial": "8 - 13",
+      "metric": "4 - 6"
+    },
+    "url": "https://cdn2.thecatapi.com/images/3dbtapCWM.jpg"
+  },
+  {
+    "id": "cypr",
+    "name": "Cyprus",
+    "description": "Amoroso, leal, social e inquisitivo, el gato de Chipre forma lazos fuertes con sus familias y no hay nada que les guste más que estar involucrados en todo lo que sucede en su entorno. No son excesivamente activos por naturaleza, lo que los convierte en el compañero perfecto para personas que desean compartir su hogar con un compañero felino relajado y tranquilo.",
+    "temperament": "Cariñoso, Sociable",
+    "origin": "Cyprus",
+    "life_span": "12 - 15",
+    "weight": {
+      "imperial": "8 - 16",
+      "metric": "4 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/tJbzb7FKo.jpg"
+  },
+  {
+    "id": "drex",
+    "name": "Devon Rex",
+    "description": "El lugar favorito del Devon Rex es justo a la altura de la cabeza, en el hombro de su persona favorita. Muestra un vivo interés en todo lo que sucede y se niega a ser excluido de cualquier actividad. Puedes contar con que se mantendrá lo más cerca posible de ti, comunicando ocasionalmente sus opiniones en voz baja. Ama a las personas y recibe con agrado las atenciones de amigos y familiares por igual.",
+    "temperament": "Highly interactive, Mischievous, Leal, Sociable, Juguetón",
+    "origin": "United Kingdom",
+    "life_span": "10 - 15",
+    "weight": {
+      "imperial": "5 - 10",
+      "metric": "2 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/4RzEwvyzz.png"
+  },
+  {
+    "id": "dons",
+    "name": "Donskoy",
+    "description": "Los Donskoy son cariñosos, inteligentes y tranquilos. Exigen mucha atención e interacción. El Donskoy también se lleva bien con otras mascotas. Ahora se cree que el mismo gen que causa grados de falta de pelo en el Donskoy también provoca alteraciones en la personalidad del gato, haciéndolos más calmados cuanto menos pelo tienen.",
+    "temperament": "Juguetón, affectionate, loyal, social",
+    "origin": "Rusia",
+    "life_span": "12 - 15",
+    "weight": {
+      "imperial": "10 - 12",
+      "metric": "5 - 6"
+    },
+    "url": "https://cdn2.thecatapi.com/images/3KG57GfMW.jpg"
+  },
+  {
+    "id": "lihu",
+    "name": "Dragon Li",
+    "description": "El Dragón Li es leal, pero no particularmente afectuoso. Son conocidos por ser muy inteligentes, y su estado natural de raza significa que son muy activos. Ella es gentil con las personas y tiene una reputación de cazadora talentosa de ratas y otros animales dañinos.",
+    "temperament": "Inteligente, Amigable, Dócil, Loving, Leal",
+    "origin": "China",
+    "life_span": "12 - 15",
+    "weight": {
+      "imperial": "9 - 12",
+      "metric": "4 - 6"
+    },
+    "url": "https://cdn2.thecatapi.com/images/BQMSld0A0.jpg"
+  },
+  {
+    "id": "emau",
+    "name": "Egiptoian Mau",
+    "description": "El Mau egipcio es gentil y reservado. Ama a su gente y desea atención y afecto de ellos, pero es cauteloso con los demás. La socialización temprana y continua es esencial con este gato sensible y a veces tímido, especialmente si planeas exhibirlo o viajar con él. De lo contrario, puede asustarse fácilmente con ruidos o eventos inesperados.",
+    "temperament": "Agile, Dependent, Dócil, Inteligente, Vivaz, Leal, Juguetón",
+    "origin": "Egipto",
+    "life_span": "18 - 20",
+    "weight": {
+      "imperial": "6 - 14",
+      "metric": "3 - 6"
+    },
+    "url": "https://cdn2.thecatapi.com/images/TuSyTkt2n.jpg"
+  },
+  {
+    "id": "ebur",
+    "name": "Europeo Burmese",
+    "description": "El Burmés Europeo es un gato muy cariñoso, inteligente y leal. Prosperan con la compañía y querrán estar contigo, participando en todo lo que haces. Aunque puedan elegir a un miembro favorito de la familia, lo más probable es que interactúen con todos en el hogar, así como con cualquier visitante que venga a llamar. Son curiosos y juguetones, incluso siendo adultos.",
+    "temperament": "Dulce, Cariñoso, Leal",
+    "origin": "Burma",
+    "life_span": "10 - 15",
+    "weight": {
+      "imperial": "7 - 14",
+      "metric": "3 - 6"
+    },
+    "url": ""
+  },
+  {
+    "id": "esho",
+    "name": "Exótico de Pelo Corto",
+    "description": "El Exotic Shorthair es un gato amable y gentil que tiene la misma personalidad que el Persa. Les encanta divertirse, no les molesta la compañía de otros gatos y perros, también les encanta acurrucarse para dormir en un lugar seguro. A los Exóticos les encanta su propia gente, pero al principio son cautelosos con los extraños. Con tiempo, suelen acostumbrarse a los visitantes.",
+    "temperament": "Cariñoso, Dulce, Leal, Tranquilo, Peaceful",
+    "origin": "Estados Unidos",
+    "life_span": "12 - 15",
+    "weight": {
+      "imperial": "7 - 14",
+      "metric": "3 - 6"
+    },
+    "url": "https://cdn2.thecatapi.com/images/YnPrYEmfe.jpg"
+  },
+  {
+    "id": "hbro",
+    "name": "Havana Brown",
+    "description": "El Havana Brown es orientado hacia los humanos, juguetón y curioso. Tiene un fuerte deseo de pasar tiempo con su gente e involucrarse en todo lo que hacen. Siendo naturalmente curioso, el Havana Brown extiende una pata para tocar y sentir cuando investiga curiosidades en su entorno. Son verdaderamente sensibles por naturaleza y frecuentemente tocan suavemente a sus compañeros humanos como si estuvieran extendiendo una pata de amistad.",
+    "temperament": "Cariñoso, Curioso, Exigente, Amigable, Inteligente, Juguetón",
+    "origin": "United Kingdom",
+    "life_span": "10 - 15",
+    "weight": {
+      "imperial": "6 - 10",
+      "metric": "3 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/njK25knLH.jpg"
+  },
+  {
+    "id": "hima",
+    "name": "Himalayo",
+    "description": "Tranquilos y devotos, los Himalayos son excelentes compañeros, aunque prefieren un hogar más tranquilo. Son juguetones de una manera sosegada y disfrutan teniendo una variedad de juguetes. El Himalayo se estirará a tu lado, dormirá en tu cama e incluso se sentará en tu regazo cuando esté de humor.",
+    "temperament": "Dependent, Dócil, Inteligente, Tranquilo, Sociable",
+    "origin": "Estados Unidos",
+    "life_span": "9 - 15",
+    "weight": {
+      "imperial": "7 - 14",
+      "metric": "3 - 6"
+    },
+    "url": "https://cdn2.thecatapi.com/images/CDhOtM-Ig.jpg"
+  },
+  {
+    "id": "jbob",
+    "name": "Japónese Bobtail",
+    "description": "El Bobtail japonés es una raza activa, dulce, cariñosa y altamente inteligente. Les encanta estar con personas y jugar aparentemente sin fin. Aprenden su nombre y responden a él. Traen juguetes a las personas y juegan a traer un juguete favorito durante horas. Los Bobtails son sociales y están en su mejor momento cuando están en compañía de personas. Se adueñan de la casa y no se intimidan. Si hay un perro en la casa, los Bobtails asumen que ellos están a cargo.",
+    "temperament": "Activo, Agile, Clever, Easy Going, Inteligente, Vivaz, Leal, Juguetón, Sociable",
+    "origin": "Japón",
+    "life_span": "14 - 16",
+    "weight": {
+      "imperial": "5 - 10",
+      "metric": "2 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/-tm9-znzl.jpg"
+  },
+  {
+    "id": "java",
+    "name": "Javanés",
+    "description": "Los javaneses son infinitamente interesados, inteligentes y activos. Les gusta saltar a grandes alturas, jugar con juguetes interactivos tipo caña de pescar y, en general, investigar su entorno. Intentará copiar cosas que haces, como abrir puertas o cajones.",
+    "temperament": "Activo, Devoted, Inteligente, Juguetón",
+    "origin": "Estados Unidos",
+    "life_span": "10 - 12",
+    "weight": {
+      "imperial": "5 - 10",
+      "metric": "2 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/xoI_EpOKe.jpg"
+  },
+  {
+    "id": "khao",
+    "name": "Khao Manee",
+    "description": "El Khao Manee es altamente inteligente, con una naturaleza extrovertida y curiosa, sin embargo, también son muy calmados y relajados, lo que los convierte en un gato ideal para tener en el regazo.",
+    "temperament": "Calm, Relaxed, Talkative, Juguetón, Warm",
+    "origin": "Tailandia",
+    "life_span": "10 - 12",
+    "weight": {
+      "imperial": "8 - 12",
+      "metric": "4 - 6"
+    },
+    "url": "https://cdn2.thecatapi.com/images/165ok6ESN.jpg"
+  },
+  {
+    "id": "kora",
+    "name": "Korat",
+    "description": "El Korat es una raza natural y una de las razas de gatos más antiguas y estables. Son muy inteligentes y seguros de sí mismos, pueden ser intrépidos, aunque se asustan con sonidos fuertes y movimientos bruscos. Los Korats forman fuertes lazos con sus dueños y les gusta acurrucarse y permanecer cerca.",
+    "temperament": "Activo, Leal, highly intelligent, Expressive, Trainable",
+    "origin": "Tailandia",
+    "life_span": "10 - 15",
+    "weight": {
+      "imperial": "7 - 11",
+      "metric": "3 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/DbwiefiaY.png"
+  },
+  {
+    "id": "kuri",
+    "name": "Kurilian",
+    "description": "El carácter del Bobtail Kuriliano es independiente, muy inteligente, astuto, curioso, sociable, juguetón, entrenable, sin agresividad y muy gentil. Son devotos a sus humanos y, cuando se les permite, están o en el regazo o durmiendo en la cama con sus dueños.",
+    "temperament": "Independiente, highly intelligent, clever, inquisitive, sociable, playful, trainable",
+    "origin": "Rusia",
+    "life_span": "15 - 20",
+    "weight": {
+      "imperial": "8 - 15",
+      "metric": "4 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/NZpO4pU56M.jpg"
+  },
+  {
+    "id": "lape",
+    "name": "LaPerm",
+    "description": "Los LaPerms son gentiles y cariñosos, pero también muy activos. A diferencia de muchas razas activas, el LaPerm también está bastante contento de ser un gato de regazo. El LaPerm a menudo seguirá tu ejemplo; es decir, si están ocupados jugando y decides sentarte a relajarte, simplemente toma a tu LaPerm, siéntate con él y se quedará en tu regazo, devorando la atención que le brindas.",
+    "temperament": "Cariñoso, Amigable, Dócil, Inteligente, Juguetón, Tranquilo",
+    "origin": "Tailandia",
+    "life_span": "10 - 15",
+    "weight": {
+      "imperial": "6 - 10",
+      "metric": "3 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/aKbsEYjSl.jpg"
+  },
+  {
+    "id": "mcoo",
+    "name": "Maine Coon",
+    "description": "Los Maine Coons son conocidos por su tamaño y su lujoso pelaje largo, y se les considera un gigante gentil. El afable Maine Coon se adapta bien a muchos estilos de vida y personalidades. Le gusta estar con las personas y tiene la costumbre de seguirlos, pero no es necesitado. A la mayoría de los Maine Coons les encanta el agua y pueden ser bastante buenos nadadores.",
+    "temperament": "Adaptable, Inteligente, Loving, Dócil, Independiente",
+    "origin": "Estados Unidos",
+    "life_span": "12 - 15",
+    "weight": {
+      "imperial": "12 - 18",
+      "metric": "5 - 8"
+    },
+    "url": "https://cdn2.thecatapi.com/images/OOD3VXAQn.jpg"
+  },
+  {
+    "id": "mala",
+    "name": "Malayan",
+    "description": "A los malayos les encanta explorar e incluso disfrutar viajando en un transportador de gato. Ely es un gato bastante hablador y algo ruidoso con una voluntad aparentemente fuerte. Los demás gatos se asegurarán de que les des la atención que buscan y siempre parecen querer ser sostenidos y abrazados. Ely interactúa constantemente con las personas, incluso con extraños. A Ely le encanta jugar y acurrucarse.",
+    "temperament": "Cariñoso, Interactive, Juguetón, Sociable",
+    "origin": "United Kingdom",
+    "life_span": "12 - 18",
+    "weight": {
+      "imperial": "6 - 13",
+      "metric": "3 - 6"
+    },
+    "url": ""
+  },
+  {
+    "id": "manx",
+    "name": "Manx",
+    "description": "El Manx es un gato tranquilo y dulce que es amable y juguetón. Nunca parece molestarse demasiado por nada. Es un compañero cariñoso y adora estar con las personas.",
+    "temperament": "Easy Going, Inteligente, Leal, Juguetón, Sociable",
+    "origin": "Isle of Man",
+    "life_span": "12 - 14",
+    "weight": {
+      "imperial": "7 - 13",
+      "metric": "3 - 6"
+    },
+    "url": "https://cdn2.thecatapi.com/images/fhYh2PDcC.jpg"
+  },
+  {
+    "id": "munc",
+    "name": "Munchkin",
+    "description": "El Munchkin es un gato sociable que disfruta ser acariciado. Tiene mucha energía y es más rápido y ágil de lo que parece. La corta longitud de sus patas no parece interferir con su capacidad para correr y saltar.",
+    "temperament": "Agile, Easy Going, Inteligente, Juguetón",
+    "origin": "Estados Unidos",
+    "life_span": "10 - 15",
+    "weight": {
+      "imperial": "5 - 9",
+      "metric": "2 - 4"
+    },
+    "url": "https://cdn2.thecatapi.com/images/j5cVSqLer.jpg"
+  },
+  {
+    "id": "nebe",
+    "name": "Nebelung",
+    "description": "El Nebelung puede tener un carácter reservado, pero le encanta jugar (especialmente le gusta recoger objetos) y disfruta saltando o trepando a lugares altos donde puede observar a las personas y las situaciones a su antojo antes de decidir si quiere involucrarse.",
+    "temperament": "Dócil, Tranquilo, Shy, Juguetón",
+    "origin": "Estados Unidos",
+    "life_span": "11 - 16",
+    "weight": {
+      "imperial": "7 - 11",
+      "metric": "3 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/OGTWqNNOt.jpg"
+  },
+  {
+    "id": "norw",
+    "name": "Bosque de Noruega",
+    "description": "El gato del bosque noruego es un gato dulce y cariñoso. Aprecia los elogios y le encanta interactuar con su dueño. Es una compañera cariñosa y crea un vínculo con sus dueños una vez que los acepta como propios. Aún es cazadora de corazón. Le encanta perseguir juguetes como si fueran reales. Es territorial y patrulla varias veces al día para asegurarse de que todo está bien.",
+    "temperament": "Dulce, Activo, Inteligente, Sociable, Juguetón, Vivaz, Curioso",
+    "origin": "Norway",
+    "life_span": "12 - 16",
+    "weight": {
+      "imperial": "8 - 16",
+      "metric": "4 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/06dgGmEOV.jpg"
+  },
+  {
+    "id": "ocic",
+    "name": "Ocigato",
+    "description": "Leal y devoto a sus dueños, el Ocigato es inteligente, seguro de sí mismo, extrovertido y parece tener muchas características de perro. Puede ser entrenado para traer juguetes, caminar con correa, enseñarle a 'hablar', venir cuando se le llama y seguir otros comandos.",
+    "temperament": "Activo, Agile, Curioso, Exigente, Amigable, Dócil, Vivaz, Juguetón, Sociable",
+    "origin": "Estados Unidos",
+    "life_span": "12 - 14",
+    "weight": {
+      "imperial": "7 - 15",
+      "metric": "3 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/JAx-08Y0n.jpg"
+  },
+  {
+    "id": "orie",
+    "name": "Oriental",
+    "description": "Los orientales sienten una gran pasión por las personas en sus vidas. Se encariñan extremadamente con sus humanos, así que prepárate para un compromiso de por vida. Cuando no estés disponible para entretenerla, un oriental se distraerá saltando encima del refrigerador, abriendo cajones y buscando nuevos escondites.",
+    "temperament": "Enérgico, Cariñoso, Inteligente, Sociable, Juguetón, Curioso",
+    "origin": "Estados Unidos",
+    "life_span": "12 - 14",
+    "weight": {
+      "imperial": "5 - 10",
+      "metric": "2 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/LutjkZJpH.jpg"
+  },
+  {
+    "id": "pers",
+    "name": "Persa",
+    "description": "Los persas son gatos dulces y amables que pueden ser juguetones o tranquilos y relajados. Se llevan muy bien con las familias y los niños, y les encanta pasar el tiempo holgazaneando en casa. Aunque no les molesta una casa llena o niños activos, usualmente se esconden cuando necesitan algo de tiempo a solas.",
+    "temperament": "Cariñoso, loyal, Sedate, Tranquilo",
+    "origin": "Iran (Persia)",
+    "life_span": "14 - 15",
+    "weight": {
+      "imperial": "9 - 14",
+      "metric": "4 - 6"
+    },
+    "url": "https://cdn2.thecatapi.com/images/-Zfz5z2jK.jpg"
+  },
+  {
+    "id": "pixi",
+    "name": "Pixie-bob",
+    "description": "Amistoso y cariñoso, el Pixie-bob quiere ser una parte integral de la familia. La capacidad del Pixie-Bob para crear vínculos con sus humanos, junto con sus personalidades pacientes, los hace excelentes compañeros para los niños.",
+    "temperament": "Cariñoso, Sociable, Inteligente, Leal",
+    "origin": "Estados Unidos",
+    "life_span": "13 - 16",
+    "weight": {
+      "imperial": "8 - 17",
+      "metric": "4 - 8"
+    },
+    "url": "https://cdn2.thecatapi.com/images/z7fJRNeN6.jpg"
+  },
+  {
+    "id": "raga",
+    "name": "Ragamuffin",
+    "description": "El Ragamuffin es tranquilo, de temperamento equilibrado y se lleva bien con todos los miembros de la familia. Los cambios en la rutina generalmente no la alteran. Es una compañera ideal para quienes viven en apartamentos y para familias con niños debido a su naturaleza paciente.",
+    "temperament": "Cariñoso, Amigable, Dócil, Calm",
+    "origin": "Estados Unidos",
+    "life_span": "12 - 16",
+    "weight": {
+      "imperial": "8 - 20",
+      "metric": "4 - 9"
+    },
+    "url": "https://cdn2.thecatapi.com/images/SMuZx-bFM.jpg"
+  },
+  {
+    "id": "ragd",
+    "name": "Ragdoll",
+    "description": "Los ragdolls aman a sus dueños, los reciben en la puerta, los siguen por la casa y saltan al regazo o se acurrucan en la cama siempre que tienen la oportunidad. Son el epítome de un gato de regazo, disfrutan ser cargados y colapsar en los brazos de quien los sostenga.",
+    "temperament": "Cariñoso, Amigable, Dócil, Tranquilo, Easygoing",
+    "origin": "Estados Unidos",
+    "life_span": "12 - 17",
+    "weight": {
+      "imperial": "12 - 20",
+      "metric": "5 - 9"
+    },
+    "url": "https://cdn2.thecatapi.com/images/oGefY4YoG.jpg"
+  },
+  {
+    "id": "rblu",
+    "name": "Rusian Blue",
+    "description": "Los Azules Rusos son muy cariñosos y reservados. No les gustan los hogares ruidosos, pero les gusta jugar y pueden ser bastante activos cuando están al aire libre. Se encariñan mucho con su dueño y son conocidos por ser compatibles con otras mascotas.",
+    "temperament": "Activo, Dependent, Easy Going, Dócil, Inteligente, Leal, Juguetón, Tranquilo",
+    "origin": "Rusia",
+    "life_span": "10 - 16",
+    "weight": {
+      "imperial": "5 - 11",
+      "metric": "2 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/Rhj-JsTLP.jpg"
+  },
+  {
+    "id": "sava",
+    "name": "Savannah",
+    "description": "Savannah es la versión felina de un perro. Busca activamente la interacción social y tiende a ponerse triste si se siente excluido. Permanece con un comportamiento de cachorro durante toda su vida. Profundamente leal a los miembros de su familia inmediata, mientras cuestiona la presencia de extraños. Son excelentes compañeros que son leales, inteligentes y deseosos de participar.",
+    "temperament": "Curioso, Sociable, Inteligente, Leal, Outgoing, Adventurous, Cariñoso",
+    "origin": "Estados Unidos",
+    "life_span": "17 - 20",
+    "weight": {
+      "imperial": "8 - 25",
+      "metric": "4 - 11"
+    },
+    "url": "https://cdn2.thecatapi.com/images/a8nIYvs6S.jpg"
+  },
+  {
+    "id": "sfol",
+    "name": "Fold Escocés",
+    "description": "El Scottish Fold es una raza dulce y encantadora. Es un gato fácil de convivir y de cuidar. Es cariñosa y se siente cómoda con todos los miembros de su familia. Su cola debe ser manejada con delicadeza. Los Folds son conocidos por dormir boca arriba y por sentarse con las piernas estiradas y las patas en su vientre. Esto se llama la \"Posición de Buda\".",
+    "temperament": "Cariñoso, Inteligente, Leal, Juguetón, Sociable, Dulce, Loving",
+    "origin": "United Kingdom",
+    "life_span": "11 - 14",
+    "weight": {
+      "imperial": "5 - 11",
+      "metric": "2 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/o9t0LDcsa.jpg"
+  },
+  {
+    "id": "srex",
+    "name": "Selkirk Rex",
+    "description": "El Selkirk Rex es una raza increíblemente paciente, amorosa y tolerante. El Selkirk también tiene un lado divertido y a veces se describe como payasesco. Le encanta ser un gato de regazo y estará feliz de charlar contigo en voz baja si le hablas.",
+    "temperament": "Activo, Cariñoso, Dependent, Dócil, Patient, Juguetón, Tranquilo, Sociable",
+    "origin": "Estados Unidos",
+    "life_span": "14 - 15",
+    "weight": {
+      "imperial": "6 - 16",
+      "metric": "3 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/II9dOZmrw.jpg"
+  },
+  {
+    "id": "siam",
+    "name": "Siamés",
+    "description": "Mientras que los gatos siameses son extremadamente apegados a sus personas, te seguirán por todos lados y supervisarán cada uno de tus movimientos, siendo habladores y opinativos. Son gatos exigentes y sociales, que no les gusta estar solos por largos períodos.",
+    "temperament": "Activo, Agile, Clever, Sociable, Loving, Enérgico",
+    "origin": "Tailandia",
+    "life_span": "12 - 15",
+    "weight": {
+      "imperial": "8 - 15",
+      "metric": "4 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/ai6Jps4sx.jpg"
+  },
+  {
+    "id": "sibe",
+    "name": "Siberiano",
+    "description": "El temperamento y afecto del perro siberiano lo hacen el gato ideal para tener en el regazo y vivirá bastante feliz en interiores. Muy ágil y poderoso, el gato siberiano puede saltar fácilmente y alcanzar lugares altos, incluidos los topes de refrigeradores e incluso puertas.",
+    "temperament": "Curioso, Inteligente, Leal, Dulce, Agile, Juguetón, Cariñoso",
+    "origin": "Rusia",
+    "life_span": "12 - 15",
+    "weight": {
+      "imperial": "8 - 16",
+      "metric": "4 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/3bkZAjRh1.jpg"
+  },
+  {
+    "id": "sing",
+    "name": "Singapura",
+    "description": "El Singapura suele ser cauteloso cuando se trata de conocer gente nueva, pero ama tanto la atención de su familia que a veces tiene la reputación de ser un fastidio. Este es un gato muy activo, curioso y cariñoso. Puede ser pequeño, pero sabe que él manda.",
+    "temperament": "Cariñoso, Curioso, Easy Going, Inteligente, Interactive, Vivaz, Leal",
+    "origin": "Singapore",
+    "life_span": "12 - 15",
+    "weight": {
+      "imperial": "5 - 8",
+      "metric": "2 - 4"
+    },
+    "url": "https://cdn2.thecatapi.com/images/Qtncp2nRe.jpg"
+  },
+  {
+    "id": "snow",
+    "name": "Snowshoe",
+    "description": "El Snowshoe es un gato vibrante, enérgico, cariñoso e inteligente. Le encanta estar rodeado de personas, lo que los hace ideales para familias, y se siente infeliz cuando se queda solo durante largos períodos de tiempo. Generalmente se encariñan con una persona y hacen lo que sea para llamar tu atención.",
+    "temperament": "Cariñoso, Sociable, Inteligente, Dulce-tempered",
+    "origin": "Estados Unidos",
+    "life_span": "14 - 19",
+    "weight": {
+      "imperial": "7 - 12",
+      "metric": "3 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/MK-sYESvO.jpg"
+  },
+  {
+    "id": "soma",
+    "name": "Somalí",
+    "description": "El somalí vive la vida al máximo. Escala más alto, salta más lejos, juega más duro. Nada escapa a la atención de este gato altamente inteligente y curioso. A los somalíes les encanta la compañía de humanos y otros animales.",
+    "temperament": "Mischievous, Tenacious, Inteligente, Cariñoso, Dócil, Interactive, Leal",
+    "origin": "Somalia",
+    "life_span": "12 - 16",
+    "weight": {
+      "imperial": "6 - 12",
+      "metric": "3 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/EPF2ejNS0.jpg"
+  },
+  {
+    "id": "sphy",
+    "name": "Esfinge",
+    "description": "El Esfinge es una raza inteligente, inquisitiva y extremadamente amigable orientada hacia las personas. Los Esfinge suelen recibir a sus dueños en la puerta principal, con evidente emoción y felicidad. Ella tiene un sentido del humor inesperado que a menudo contrasta con su expresión seria.",
+    "temperament": "Leal, Inquisitive, Amigable, Tranquilo, Dócil",
+    "origin": "Canadá",
+    "life_span": "12 - 14",
+    "weight": {
+      "imperial": "6 - 12",
+      "metric": "3 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/BDb8ZXb1v.jpg"
+  },
+  {
+    "id": "tonk",
+    "name": "Tonquinés",
+    "description": "Inteligente y generoso con su afecto, un Tonkinés supervisará todas las actividades con curiosidad. Amoroso, social, activo, juguetón, pero contento de ser un gato faldero.",
+    "temperament": "Curioso, Inteligente, Sociable, Vivaz, Outgoing, Juguetón, Cariñoso",
+    "origin": "Canadá",
+    "life_span": "14 - 16",
+    "weight": {
+      "imperial": "6 - 12",
+      "metric": "3 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/KBroiVNCM.jpg"
+  },
+  {
+    "id": "toyg",
+    "name": "Toyger",
+    "description": "El Toyger tiene una personalidad dulce y tranquila y generalmente es amigable. Es lo suficientemente extrovertido como para pasear con correa, lo suficientemente enérgico para jugar a buscar y otros juegos interactivos, y lo suficientemente seguro de sí mismo como para llevarse bien con otros gatos y perros amigables.",
+    "temperament": "Juguetón, Sociable, Inteligente",
+    "origin": "Estados Unidos",
+    "life_span": "12 - 15",
+    "weight": {
+      "imperial": "7 - 15",
+      "metric": "3 - 7"
+    },
+    "url": "https://cdn2.thecatapi.com/images/O3F3_S1XN.jpg"
+  },
+  {
+    "id": "tang",
+    "name": "Angora Turco",
+    "description": "Este es un gato inteligente y astuto que se lleva bien con los humanos. Con su personalidad afectuosa y juguetona, el Angora es una de las mejores opciones para las familias. El Angora se lleva muy bien con otras mascotas en el hogar, pero dejará claro quién manda y a quién pertenece la casa.",
+    "temperament": "Cariñoso, Agile, Clever, Dócil, Inteligente, Juguetón, Sociable",
+    "origin": "Turquía",
+    "life_span": "15 - 18",
+    "weight": {
+      "imperial": "5 - 10",
+      "metric": "2 - 5"
+    },
+    "url": "https://cdn2.thecatapi.com/images/7CGV6WVXq.jpg"
+  },
+  {
+    "id": "tvan",
+    "name": "Van Turco",
+    "description": "Mientras al Van turco le encanta saltar y trepar, jugar con juguetes, traer cosas y jugar a perseguirse, es grande y torpe; este es un gato que no siempre aterriza sobre sus pies. Aunque no es mucho de estar en el regazo, el Van estará feliz de acurrucarse a tu lado y dormir en tu cama.",
+    "temperament": "Agile, Inteligente, Leal, Juguetón, Enérgico",
+    "origin": "Turquía",
+    "life_span": "12 - 17",
+    "weight": {
+      "imperial": "7 - 20",
+      "metric": "3 - 9"
+    },
+    "url": "https://cdn2.thecatapi.com/images/sxIXJax6h.jpg"
+  },
+  {
+    "id": "ycho",
+    "name": "York Chocolate",
+    "description": "Los gatos York Chocolate son conocidos por ser verdaderos gatos de regazo con un temperamento dulce. Les encanta que los acurruquen y acaricien. Su naturaleza curiosa hace que te sigan todo el tiempo y participen en casi todo lo que haces, incluso si está relacionado con el agua: a diferencia de muchos otros gatos, a los York Chocolate les encanta.",
+    "temperament": "Juguetón, Sociable, Inteligente, Curioso, Amigable",
+    "origin": "Estados Unidos",
+    "life_span": "13 - 15",
+    "weight": {
+      "imperial": "12 - 18",
+      "metric": "5 - 8"
+    },
+    "url": "https://cdn2.thecatapi.com/images/0SxW2SQ_S.jpg"
+  }
+]
