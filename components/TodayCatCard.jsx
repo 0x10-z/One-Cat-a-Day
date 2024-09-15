@@ -1,15 +1,24 @@
 import React, { useState, useEffect } from "react";
-import { Text, View, Image, StyleSheet, TouchableOpacity } from "react-native";
+import {
+  Text,
+  View,
+  Image,
+  StyleSheet,
+  TouchableOpacity,
+  ActivityIndicator,
+} from "react-native";
 import * as Animatable from "react-native-animatable";
 import { BombIcon, BrainIcon, LoveIcon, WeightScaleIcon } from "./Icons";
 import { useCatContext } from "../hooks/useCatContext"; // Importa el contexto
 import { useBadgeContext } from "../hooks/useBadgeContext"; // Importa el contexto
+import { getCatGif } from "../lib/onecataday";
 
 export default function TodayCatCard({ newCatInfo }) {
   const [loading, setLoading] = useState(false);
   const [hasSavedCat, setHasSavedCat] = useState(false); // Estado para saber si el gato ya ha sido guardado
   const [timeRemaining, setTimeRemaining] = useState("");
   const [animationType, setAnimationType] = useState("pulse"); // Animación inicial
+  const [catGif, setCatGif] = useState(null);
 
   const { catList, addNewCat } = useCatContext(); // Accede a la función para agregar gatos
   const { checkBadges } = useBadgeContext();
@@ -34,6 +43,10 @@ export default function TodayCatCard({ newCatInfo }) {
   useEffect(() => {
     // When user logins, check for new badges
     checkBadges(catList);
+
+    getCatGif().then((gif) => {
+      setCatGif(gif);
+    });
 
     const calculateTimeRemaining = () => {
       const now = new Date();
@@ -90,10 +103,19 @@ export default function TodayCatCard({ newCatInfo }) {
       {hasSavedCat ? (
         <View style={styles.cardContainer}>
           <Animatable.View
-            animation={"pulse"} // Aplicar la animación basada en el estado
+            animation={"pulse"}
             iterationCount="infinite"
             duration={1500}
+            style={styles.centeredGifContainer} // Nuevo estilo para centrar el GIF
           >
+            {catGif ? (
+              <Image
+                source={{ uri: catGif }}
+                style={styles.catGif} // Usamos un estilo definido en lugar de inline
+              />
+            ) : (
+              <ActivityIndicator />
+            )}
             <Text style={styles.savedMessage}>
               ¡Wow! Ya atrapaste el gato de hoy.
             </Text>
@@ -102,7 +124,6 @@ export default function TodayCatCard({ newCatInfo }) {
             </Text>
           </Animatable.View>
           <Text style={styles.countdownText}>
-            {" "}
             Próximo gato en: {timeRemaining}
           </Text>
         </View>
@@ -190,6 +211,17 @@ const styles = StyleSheet.create({
   cardContainer: {
     alignItems: "center",
     justifyContent: "center",
+    flex: 1, // Asegura que ocupe todo el espacio
+  },
+  centeredGifContainer: {
+    alignItems: "center", // Centra horizontalmente
+    justifyContent: "center", // Centra verticalmente
+    flex: 1,
+  },
+  catGif: {
+    width: 200,
+    height: 200,
+    borderRadius: 12, // Opcional si quieres bordes redondeados en el gif
   },
   countdownText: {
     fontSize: 18,
