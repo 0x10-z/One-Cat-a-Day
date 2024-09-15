@@ -39,13 +39,13 @@ export function CatProvider({ children }) {
 
   // Function to add a new cat to the list and store it
   const addNewCat = (newCat) => {
-    if (
-      !newCat ||
-      catList.some((cat) => cat.id === newCat.id) // Use a unique identifier
-    ) {
-      console.error("The cat already exists or the value is invalid");
-      return;
-    }
+    // if (
+    //   !newCat ||
+    //   catList.some((cat) => cat.id === newCat.id) // Use a unique identifier
+    // ) {
+    //   console.error("The cat already exists or the value is invalid");
+    //   return;
+    // }
 
     setCatList((prevCatList) => [...prevCatList, newCat]);
     saveCatsToStorage([...catList, newCat]);
