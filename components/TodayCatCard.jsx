@@ -141,12 +141,12 @@ export default function TodayCatCard({ catInfo }) {
           style={[styles.card, { transform: [{ translateX }, { rotateY }] }]}
         >
           <Text className="absolute right-5 top-3 text-gray-700 text-3xl font-bold">
-            #3
+            #{catInfo.listPosition}
           </Text>
 
           {/* Imagen del gato */}
           <Image
-            source={{ uri: catInfo.image.url }}
+            source={{ uri: catInfo.url }}
             style={styles.catImage}
             resizeMode="cover"
           />

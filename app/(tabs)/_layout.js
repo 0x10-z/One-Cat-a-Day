@@ -21,7 +21,7 @@ export default function TabsLayout() {
       <Tabs.Screen
         name="cats"
         options={{
-          title: "My Cats",
+          title: "Mis Gatos",
           tabBarIcon: ({ color }) => <CatIcon color={color} />,
         }}
       />

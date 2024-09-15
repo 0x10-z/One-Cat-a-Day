@@ -40,7 +40,9 @@ export default function Detail() {
                 source={{ uri: catInfo.url }}
                 style={styles.catImage}
               />
-              <Text style={styles.catName}>{catInfo.name}</Text>
+              <Text style={styles.catName}>
+                #{catInfo.listPosition} {catInfo.name}
+              </Text>
               <Text style={styles.catOrigin}>{catInfo.origin}</Text>
               <LifeSpan score={catInfo.life_span} maxScore={20} />
               <Text style={styles.description}>{catInfo.description}</Text>

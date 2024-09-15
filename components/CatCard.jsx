@@ -21,7 +21,9 @@ export function CatCard({ cat }) {
           <Image source={{ uri: cat.url }} style={styles.image} />
           <View style={styles.infoContainer}>
             <View style={styles.headerContainer}>
-              <Text style={styles.name}>{cat.name}</Text>
+              <Text style={styles.name}>
+                #{cat.listPosition} {cat.name}
+              </Text>
               <LifeSpan years={cat.lifeSpan} />
             </View>
             <Text style={styles.description}>
