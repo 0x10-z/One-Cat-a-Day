@@ -48,5 +48,45 @@
       "type": "specific_cat",
       "catId": "09wFxpacQzvf9jfM"
     }
+  },
+  {
+    "id": 7,
+    "title": "Bruce 'Gato' Wayne",
+    "image": "assets/badges/bruce.webp",
+    "obtained": false,
+    "criteria": {
+      "type": "specific_cat",
+      "catId": "bruce"
+    }
+  },
+  {
+    "id": 8,
+    "title": "Zani Bunny",
+    "image": "assets/badges/zani.webp",
+    "obtained": false,
+    "criteria": {
+      "type": "specific_cat",
+      "catId": "zani"
+    }
+  },
+  {
+    "id": 9,
+    "title": "Nika con K",
+    "image": "assets/badges/nika.webp",
+    "obtained": false,
+    "criteria": {
+      "type": "specific_cat",
+      "catId": "nika"
+    }
+  },
+  {
+    "id": 10,
+    "title": "Coffee-ina",
+    "image": "assets/badges/Coffee.webp",
+    "obtained": false,
+    "criteria": {
+      "type": "specific_cat",
+      "catId": "Coffee"
+    }
   }
 ]

@@ -16,6 +16,7 @@ def generate_cat_json(directory):
         if filename.lower().endswith(('.png', '.jpg', '.jpeg', '.gif', '.webp')):
             _, cat = funny_names_list[idx % total_names]
             print(cat)
+            tags = cats_tags[filename.split('.')[0]].get('tags', []) if filename.split('.')[0] in cats_tags else []
             cat_info = {
                 "id": filename,
                 "name":  cat['name'],
@@ -25,7 +26,7 @@ def generate_cat_json(directory):
                 "intelligence": cat['intelligence'],
                 "love": cat['love'],
                 "exploding_rate": cat['exploding_rate'],
-                "tags": cats_tags[filename.split('.')[0]].get('tags', [])
+                "tags": tags
             }
             cat_data.append(cat_info)
     
