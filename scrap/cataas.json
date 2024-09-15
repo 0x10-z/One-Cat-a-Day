@@ -1,0 +1,1605 @@
+[
+    {
+        "id": "09wFxpacQzvf9jfM.webp",
+        "name": "El Conde Maullido",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 4,
+        "tags": [
+            "Maskcat"
+        ]
+    },
+    {
+        "id": "0B2g7aTANObiqPJJ.webp",
+        "name": "Miaucesar",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 5,
+        "tags": [
+            "creation"
+        ]
+    },
+    {
+        "id": "0BTTVEVWXNyOgXYd.webp",
+        "name": "Gatín Tarantino",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 4,
+        "tags": []
+    },
+    {
+        "id": "0EsIYDG0at0TPpPD.webp",
+        "name": "Señor Garras",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 2,
+        "tags": [
+            "fat"
+        ]
+    },
+    {
+        "id": "0nnJxjVoMK6GVmRS.webp",
+        "name": "Miau de Nieve",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": []
+    },
+    {
+        "id": "0RU7ZkgzyvWv8UJG.webp",
+        "name": "Minino Destructor",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 4,
+        "tags": [
+            "tuxedo",
+            "computer",
+            "sleepy",
+            "cute",
+            "sleeping"
+        ]
+    },
+    {
+        "id": "0U4jE41oGuUWThFX.webp",
+        "name": "Sir Ronroneo",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 2,
+        "tags": []
+    },
+    {
+        "id": "0XykxsO1fUAZRtPp.webp",
+        "name": "Misi Kitsch",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 1,
+        "tags": [
+            "cow",
+            "halloween"
+        ]
+    },
+    {
+        "id": "0YOo8tXUKraccqJl.webp",
+        "name": "Gatón de Guerra",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 5,
+        "tags": [
+            "trump"
+        ]
+    },
+    {
+        "id": "1Egt9OiLoKACJHPw.webp",
+        "name": "Miauestro",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 1,
+        "tags": [
+            "loaf"
+        ]
+    },
+    {
+        "id": "1frqP6ajw0JzkR1o.webp",
+        "name": "Zar Purrinski",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 2,
+        "tags": [
+            "Кошка"
+        ]
+    },
+    {
+        "id": "1KSwqj0a2mTz5ZrF.webp",
+        "name": "El Felino Feroz",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 1,
+        "tags": [
+            "orange",
+            "tongue",
+            "smug"
+        ]
+    },
+    {
+        "id": "1LlIgMhb3DfoW4qw.webp",
+        "name": "Capitán Rasguños",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 1,
+        "tags": [
+            "nasty",
+            "goofy",
+            "silly",
+            "closeup",
+            "ava"
+        ]
+    },
+    {
+        "id": "1si02A2ZNdeNH3yo.webp",
+        "name": "Gatito Pelotón",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 4,
+        "tags": [
+            "soggy",
+            "cute"
+        ]
+    },
+    {
+        "id": "2PhQ92iE2EVNF0ot.webp",
+        "name": "Misi Travesuras",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 1,
+        "tags": [
+            "#scottishfold"
+        ]
+    },
+    {
+        "id": "2R4fwl2tPwmSwvp1.webp",
+        "name": "Don Garras Suaves",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 5,
+        "tags": [
+            "business",
+            "cute",
+            "tuxedo"
+        ]
+    },
+    {
+        "id": "2wfWxhA4oS7bGUFW.webp",
+        "name": "Pelusa de Hierro",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 5,
+        "tags": [
+            "cute",
+            "valentine",
+            "heart"
+        ]
+    },
+    {
+        "id": "3CxmofIHAkqDJ462.webp",
+        "name": "Miau Twain",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 3,
+        "tags": []
+    },
+    {
+        "id": "3mEJCz1Oj7l1E2tm.webp",
+        "name": "General Bigotes",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 5,
+        "tags": [
+            "angry",
+            "furious",
+            "wtf",
+            "gif"
+        ]
+    },
+    {
+        "id": "3XwXXFnF3WkX5d3D.webp",
+        "name": "Zarpas Salvaje",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 5,
+        "tags": [
+            "glass"
+        ]
+    },
+    {
+        "id": "43xBdW7f8F81s3mX.webp",
+        "name": "El Señor de los Miauros",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 1,
+        "tags": [
+            "fat"
+        ]
+    },
+    {
+        "id": "4HFPo3TSyFrsWy3s.webp",
+        "name": "Misi Suavidad",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 1,
+        "tags": []
+    },
+    {
+        "id": "4kdYsRF5rLR1nWWC.webp",
+        "name": "Whiskers McFluff",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 1,
+        "tags": [
+            "male",
+            "pose",
+            "tabby",
+            "face",
+            "eyes",
+            "felix",
+            "staring",
+            "smile",
+            "smart"
+        ]
+    },
+    {
+        "id": "4l7j1U5Qsiq0Zgrx.webp",
+        "name": "Maullido Cósmico",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 3,
+        "tags": [
+            "black",
+            "eyes",
+            "ears back"
+        ]
+    },
+    {
+        "id": "4skdDxHm4yDsSJIr.webp",
+        "name": "Purrmonarca",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 5,
+        "tags": []
+    },
+    {
+        "id": "4zJgFagrJcsYIDks.webp",
+        "name": "Minino Rodante",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 1,
+        "tags": [
+            "silly",
+            "tabby"
+        ]
+    },
+    {
+        "id": "5qmyjwK04hQx5MtY.webp",
+        "name": "Whisker Master",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 2,
+        "tags": [
+            "black",
+            "surprised",
+            "plushie",
+            "twins"
+        ]
+    },
+    {
+        "id": "5W4WmGugAnVajPOA.webp",
+        "name": "Señor Arañazo",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 5,
+        "tags": [
+            "sleeping",
+            "couple",
+            "pair",
+            "white",
+            "stripe",
+            "grey"
+        ]
+    },
+    {
+        "id": "5xkciWGhgeTnMyPj.webp",
+        "name": "Purrsonio",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 3,
+        "tags": []
+    },
+    {
+        "id": "60qItVZj8MctIDlg.webp",
+        "name": "Capitán Purrfecto",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 3,
+        "tags": [
+            "omg",
+            "gif"
+        ]
+    },
+    {
+        "id": "60RRZkQdH528DPyM.webp",
+        "name": "Comandante Meow",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": [
+            "tortie",
+            "bonus dog"
+        ]
+    },
+    {
+        "id": "69RpDCeZNgtnZf80.webp",
+        "name": "Felino Galante",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 1,
+        "tags": [
+            "cat",
+            "orange",
+            "hat"
+        ]
+    },
+    {
+        "id": "6BW12rndjda1lvAC.webp",
+        "name": "Mister Maullido",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 1,
+        "tags": [
+            "orange",
+            "sitting",
+            "outside"
+        ]
+    },
+    {
+        "id": "6GnOwSUQNMKmYIV9.webp",
+        "name": "Whisker Whisk",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3,
+        "tags": [
+            "long",
+            "black",
+            "big",
+            "fat",
+            "cat"
+        ]
+    },
+    {
+        "id": "6MNiU7Ryx8FAb7SI.webp",
+        "name": "Miau the Magnificent",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 5,
+        "tags": [
+            "glass"
+        ]
+    },
+    {
+        "id": "6mUKM01HMW9U2ClR.webp",
+        "name": "Zar de Zarpas",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 4,
+        "tags": [
+            "cute",
+            "yellow",
+            "babby"
+        ]
+    },
+    {
+        "id": "6oHuZE71zuF2R88n.webp",
+        "name": "Ronquillo",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 5,
+        "tags": [
+            "held"
+        ]
+    },
+    {
+        "id": "6p48P80uDGCaRw48.webp",
+        "name": "Gato Maravilla",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 3,
+        "tags": [
+            "tongue"
+        ]
+    },
+    {
+        "id": "6scyQOdret4f689C.webp",
+        "name": "Purrmanente",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 5,
+        "tags": [
+            "bath"
+        ]
+    },
+    {
+        "id": "6SMxkyFCorLUKSUP.webp",
+        "name": "Bigotes Clandestino",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": [
+            "evil"
+        ]
+    },
+    {
+        "id": "7d7EPnouLU1Vwkdc.webp",
+        "name": "Purrinquisidor",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": [
+            "cute",
+            "mask"
+        ]
+    },
+    {
+        "id": "7kAJ3Huta4I97pm2.webp",
+        "name": "Peludo Trotamundos",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 2,
+        "tags": [
+            "blep",
+            "derp"
+        ]
+    },
+    {
+        "id": "7LuIpCaXzTAIJUXw.webp",
+        "name": "El Maullador Mágico",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 2,
+        "tags": []
+    },
+    {
+        "id": "7mWh80Y6OCF9dCbg.webp",
+        "name": "Señor Purrington",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 5,
+        "tags": [
+            "cat",
+            "2cats",
+            "xena",
+            "logan",
+            "annilou91"
+        ]
+    },
+    {
+        "id": "7nVR77fsDnUXGf0A.webp",
+        "name": "Felino Magistral",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 2,
+        "tags": [
+            "sleepy",
+            "small"
+        ]
+    },
+    {
+        "id": "7RxMRzAMC39q879v.webp",
+        "name": "Maullido Misterioso",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3,
+        "tags": [
+            "cute"
+        ]
+    },
+    {
+        "id": "7tqafu0KMTOsQl2y.webp",
+        "name": "Purrfesor Garras",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 4,
+        "tags": []
+    },
+    {
+        "id": "7ZPbTnDEoWOiZ4tK.webp",
+        "name": "Gatito Intrépido",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 4,
+        "tags": [
+            "lost",
+            "sad",
+            "orange"
+        ]
+    },
+    {
+        "id": "80c2MuzG5itX1J0S.webp",
+        "name": "Bigotes de Fuego",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 2,
+        "tags": []
+    },
+    {
+        "id": "8k5fIC7zYcfcoE2m.webp",
+        "name": "Minino Viajero",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 1,
+        "tags": [
+            "black"
+        ]
+    },
+    {
+        "id": "8xxUWGeE517rX7MA.webp",
+        "name": "Capitán Misi",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 4,
+        "tags": [
+            "cat",
+            "cake",
+            "tiktok",
+            "decorating"
+        ]
+    },
+    {
+        "id": "9FKxhPr58Qoq4sO1.webp",
+        "name": "Rey Miau",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 4,
+        "tags": [
+            "dj",
+            "meme"
+        ]
+    },
+    {
+        "id": "9WFz0kCbRxtVQQOn.webp",
+        "name": "Purrminator",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 5,
+        "tags": [
+            "costume",
+            "fall",
+            "gif"
+        ]
+    },
+    {
+        "id": "aAZvpzuvIspNZB3H.webp",
+        "name": "Peluso Alado",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": [
+            "open_mouth",
+            "surprise",
+            "shocked"
+        ]
+    },
+    {
+        "id": "AbOAHgaV6eqUQZfL.webp",
+        "name": "Doctor Ronroneo",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 1,
+        "tags": [
+            "cat",
+            "kitty",
+            "kitten",
+            "exferal",
+            "morrigan",
+            "morrigan witch of the wilds",
+            "startled",
+            "judgemental"
+        ]
+    },
+    {
+        "id": "afcjk0kZwJsapLu4.webp",
+        "name": "El Gato Místico",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 3,
+        "tags": [
+            "small",
+            "meme"
+        ]
+    },
+    {
+        "id": "AjPwxqduWA4Yd5T8.webp",
+        "name": "Felino del Espacio",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 4,
+        "tags": [
+            "slap",
+            "candle",
+            "fire",
+            "slip",
+            "fall",
+            "gif"
+        ]
+    },
+    {
+        "id": "AM6rHQAzqdQZEe9X.webp",
+        "name": "Maestro Garras",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 2,
+        "tags": []
+    },
+    {
+        "id": "aNBUrDriU8yRYv3I.webp",
+        "name": "Bigotes Increíble",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 3,
+        "tags": [
+            "dev",
+            "engineer"
+        ]
+    },
+    {
+        "id": "AuJJH4ix0xUZZb3s.webp",
+        "name": "Pelusa el Magnánimo",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3,
+        "tags": [
+            "sleeping",
+            "melon",
+            "hat"
+        ]
+    },
+    {
+        "id": "BG6ZYX76gw1ldfHq.webp",
+        "name": "Ronroneador Supremo",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 5,
+        "tags": [
+            "small"
+        ]
+    },
+    {
+        "id": "bgOtqq1YmQ3fxTeH.webp",
+        "name": "Minino de las Nubes",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 2,
+        "tags": [
+            "orange",
+            "open_mouth",
+            "shocked",
+            "reaction"
+        ]
+    },
+    {
+        "id": "bisSwlCU4kGxfZkH.webp",
+        "name": "Señor Misi",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 3,
+        "love": 3,
+        "exploding_rate": 5,
+        "tags": [
+            "glass",
+            "loaf"
+        ]
+    },
+    {
+        "id": "boWG5FoWSfngftZ2.webp",
+        "name": "Gatito Bigotón",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": [
+            "bread",
+            "food",
+            "cute"
+        ]
+    },
+    {
+        "id": "BrANlTLTkeTqzeUM.webp",
+        "name": "Zarpas de Seda",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 3,
+        "tags": []
+    },
+    {
+        "id": "bSMU6OaZyK6Y2fyh.webp",
+        "name": "Purr VanderGato",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 3,
+        "tags": []
+    },
+    {
+        "id": "c8jVm5EkJTB2Llwp.webp",
+        "name": "Comandante Felino",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 1,
+        "tags": [
+            "disappointed"
+        ]
+    },
+    {
+        "id": "CFnG5UsD2WCxXJ4L.webp",
+        "name": "Don Peludo",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 1,
+        "tags": [
+            "drink",
+            "soda",
+            "straw",
+            "white",
+            "kitten"
+        ]
+    },
+    {
+        "id": "cgVj1kaXHy9zAWfZ.webp",
+        "name": "Zar de los Gatos",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 1,
+        "tags": [
+            "cute",
+            "kittens",
+            "couch",
+            "sofa"
+        ]
+    },
+    {
+        "id": "cJY0BfH9tEIiuDPp.webp",
+        "name": "Pelusa Intrépida",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 4,
+        "tags": [
+            "smack",
+            "motion blur",
+            "sitting",
+            "duo",
+            "black",
+            "looking at viewer"
+        ]
+    },
+    {
+        "id": "Cls8xWGi0Xm3d2EK.webp",
+        "name": "Capitán Zarpitas",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 1,
+        "tags": [
+            "cute",
+            "kitten",
+            "sleeping",
+            "gif"
+        ]
+    },
+    {
+        "id": "cQpiLvShgIksYW0p.webp",
+        "name": "Misi Maullido",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": [
+            "rainbow"
+        ]
+    },
+    {
+        "id": "CRHPw3hltjKfxKQC.webp",
+        "name": "El Magnífico Purr",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 1,
+        "tags": [
+            "facecat"
+        ]
+    },
+    {
+        "id": "D5ENdYX2vHVP7nyY.webp",
+        "name": "Whiskers el Noble",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 1,
+        "tags": [
+            "tux",
+            "davie412",
+            "tuxedo"
+        ]
+    },
+    {
+        "id": "DDr2h6d9dARLhLvC.webp",
+        "name": "Maullido Dorado",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3,
+        "tags": [
+            "black",
+            "blurred",
+            "tongue"
+        ]
+    },
+    {
+        "id": "DIUsDL65ejCv37jr.webp",
+        "name": "Capitán Rasguñón",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3,
+        "tags": [
+            "tuxedo",
+            "KitKat",
+            "boi",
+            "a"
+        ]
+    },
+    {
+        "id": "dMDCdPH0V7C1kjPO.webp",
+        "name": "Purrsonius Rex",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 1,
+        "tags": [
+            "glass",
+            "loaf"
+        ]
+    },
+    {
+        "id": "E5eHlp79za4OGI1Q.webp",
+        "name": "Gatito de Hierro",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": [
+            "lick",
+            "mlem",
+            "tongue",
+            "round_face"
+        ]
+    },
+    {
+        "id": "E7JgfDHlJrSppcjt.webp",
+        "name": "Whisker Leyenda",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 5,
+        "love": 4,
+        "exploding_rate": 1,
+        "tags": [
+            "sleepy"
+        ]
+    },
+    {
+        "id": "Ea5gsXEnufrHsSPd.webp",
+        "name": "Felino Encantador",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 5,
+        "tags": [
+            "distraction",
+            "keyboard",
+            "laptop",
+            "berlin"
+        ]
+    },
+    {
+        "id": "ejPkppU0Ax28SwCG.webp",
+        "name": "Ronroneo de Plata",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": [
+            "ugly"
+        ]
+    },
+    {
+        "id": "exvMtoKhGj3R7FGL.webp",
+        "name": "Señor Misi Suave",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 2,
+        "tags": []
+    },
+    {
+        "id": "Ey1BLTJ3FiFUngPG.webp",
+        "name": "General Gato Supremo",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": [
+            "black",
+            "network",
+            "router",
+            "cables",
+            "lan"
+        ]
+    },
+    {
+        "id": "EZuu3LoM7Sz0vLMG.webp",
+        "name": "Bigotes de Acero",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 5,
+        "tags": [
+            "chonker",
+            "unit",
+            "fat cat"
+        ]
+    },
+    {
+        "id": "f15ydM5vA4f3fzxt.webp",
+        "name": "Pelusa Galáctico",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 3,
+        "tags": []
+    },
+    {
+        "id": "f1JAhXtqPfjOp5iq.webp",
+        "name": "Purrcival",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 5,
+        "tags": [
+            "grey",
+            "cute",
+            "nose"
+        ]
+    },
+    {
+        "id": "fE9ULi3WY97QYiV7.webp",
+        "name": "Miau de León",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": [
+            "cute"
+        ]
+    },
+    {
+        "id": "fEaxXcG5uK0pzu6A.webp",
+        "name": "Gatito del Sol",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 3,
+        "tags": [
+            "orange",
+            "cool"
+        ]
+    },
+    {
+        "id": "fT6EIJmITQX0HUEz.webp",
+        "name": "Purrsonaje Épico",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 4,
+        "tags": [
+            "marine"
+        ]
+    },
+    {
+        "id": "Fx5SaB90xtSn3Hqr.webp",
+        "name": "Gatúbelo",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 2,
+        "love": 5,
+        "exploding_rate": 3,
+        "tags": [
+            "long"
+        ]
+    },
+    {
+        "id": "FzzOXc504wHLqZiN.webp",
+        "name": "Maullador Furioso",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 5,
+        "exploding_rate": 3,
+        "tags": [
+            "small",
+            "kitten",
+            "cute"
+        ]
+    },
+    {
+        "id": "g1jbYlcEug4haO9Q.webp",
+        "name": "Capitán Zarpazo",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": [
+            "small",
+            "orange",
+            "confused",
+            "standing"
+        ]
+    },
+    {
+        "id": "GLMHSgB0rARN5A3W.webp",
+        "name": "Ronroneitor",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 3,
+        "tags": [
+            "SWS"
+        ]
+    },
+    {
+        "id": "gpwSBzUhbKo3qlh7.webp",
+        "name": "Whiskers McGraw",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 2,
+        "love": 4,
+        "exploding_rate": 3,
+        "tags": [
+            "orange"
+        ]
+    },
+    {
+        "id": "hquA1XbCI8OA5kwI.webp",
+        "name": "Felino Brillante",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 4,
+        "tags": [
+            "funny",
+            "gray"
+        ]
+    },
+    {
+        "id": "HtkeLA1yyzb8RyUC.webp",
+        "name": "Garras Espaciales",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 2,
+        "tags": [
+            "coat"
+        ]
+    },
+    {
+        "id": "huk29mmkh80WZjYl.webp",
+        "name": "Sir Miauington",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": [
+            "cute",
+            "fragile"
+        ]
+    },
+    {
+        "id": "HVWLzNNu6y4j8Eq6.webp",
+        "name": "Minino Estrella",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 5,
+        "tags": [
+            "Cute",
+            "big eyes",
+            "black"
+        ]
+    },
+    {
+        "id": "i17rOOhMY9XBvrUr.webp",
+        "name": "Gato Barón",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 5,
+        "love": 3,
+        "exploding_rate": 3,
+        "tags": [
+            "funny",
+            "calico"
+        ]
+    },
+    {
+        "id": "IcQJRoJ5064xxyMY.webp",
+        "name": "Lord Pelusín",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 2,
+        "tags": [
+            "cute",
+            "orange",
+            "holding",
+            "kitten",
+            "sleep"
+        ]
+    },
+    {
+        "id": "iDCn06LVHxkE06aR.webp",
+        "name": "Whiskerpuff",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 5,
+        "tags": []
+    },
+    {
+        "id": "ifo1jxMbzxhv93DB.webp",
+        "name": "Miaury Poppins",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 4,
+        "love": 4,
+        "exploding_rate": 4,
+        "tags": []
+    },
+    {
+        "id": "IgtTZEywlLir6neI.webp",
+        "name": "El Intrépido Felino",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 3,
+        "tags": []
+    },
+    {
+        "id": "kE3LIjkUG6sBcc8T.webp",
+        "name": "Barón Ronroneo",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 3,
+        "exploding_rate": 4,
+        "tags": [
+            "cat",
+            "shark",
+            "hat"
+        ]
+    },
+    {
+        "id": "KP4fPJyeedP9MhPM.webp",
+        "name": "Peludo McFly",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": [
+            "selfie",
+            "sad"
+        ]
+    },
+    {
+        "id": "m8YjVISLzb0EGEPW.webp",
+        "name": "Miau el Veloz",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 5,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": [
+            "white",
+            "sad",
+            "hilter"
+        ]
+    },
+    {
+        "id": "mataLZullwwsQPhr.webp",
+        "name": "Felino Increíble",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 1,
+        "love": 5,
+        "exploding_rate": 3,
+        "tags": [
+            "tortie"
+        ]
+    },
+    {
+        "id": "mLBQJjQuGX55Iniz.webp",
+        "name": "El Gato del Futuro",
+        "description": null,
+        "tagline": null,
+        "weight": 3,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 4,
+        "tags": [
+            "black",
+            "bored",
+            "human"
+        ]
+    },
+    {
+        "id": "mxxSPPG4DCfCkk8b.webp",
+        "name": "Capitán Peludo",
+        "description": null,
+        "tagline": null,
+        "weight": 6,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 1,
+        "tags": [
+            "trump"
+        ]
+    },
+    {
+        "id": "NKeOpRP8H27fyhSO.webp",
+        "name": "Comandante Purrfecto",
+        "description": null,
+        "tagline": null,
+        "weight": 5,
+        "intelligence": 2,
+        "love": 3,
+        "exploding_rate": 2,
+        "tags": [
+            "ho",
+            "surprised"
+        ]
+    },
+    {
+        "id": "nkN3D3ILJTJEQ4Gv.webp",
+        "name": "Whiskers Supersónico",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 1,
+        "love": 4,
+        "exploding_rate": 3,
+        "tags": [
+            "kitten",
+            "curl"
+        ]
+    },
+    {
+        "id": "NuCbxqOj92foqkh4.webp",
+        "name": "Felino de Acero",
+        "description": null,
+        "tagline": null,
+        "weight": 8,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 1,
+        "tags": [
+            "funny"
+        ]
+    },
+    {
+        "id": "o9UjyHopJE4x1Edk.webp",
+        "name": "El Miau Galáctico",
+        "description": null,
+        "tagline": null,
+        "weight": 7,
+        "intelligence": 3,
+        "love": 4,
+        "exploding_rate": 4,
+        "tags": [
+            "cute",
+            "orange",
+            "ginger",
+            "sleeping",
+            "kitten"
+        ]
+    },
+    {
+        "id": "oAfm5IxlchCxWd3u.webp",
+        "name": "Purrlock el Sabio",
+        "description": null,
+        "tagline": null,
+        "weight": 4,
+        "intelligence": 4,
+        "love": 5,
+        "exploding_rate": 3,
+        "tags": [
+            "hash_brown",
+            "mcdonalds",
+            "angry",
+            "small"
+        ]
+    }
+]
