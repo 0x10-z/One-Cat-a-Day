@@ -1,9 +1,17 @@
 import React, { useRef, useEffect } from "react";
-import { View, ScrollView, Text, Image, Animated } from "react-native";
+import {
+  View,
+  ScrollView,
+  Text,
+  Image,
+  Animated,
+  TouchableOpacity,
+  Easing,
+} from "react-native";
 import { Screen } from "../../components/Screen";
-import { useBadgeContext } from "../../hooks/useBadgeContext"; // Importa el proveedor
+import { useBadgeContext } from "../../hooks/useBadgeContext";
 
-// Función para dividir el array de medallas en grupos de 4
+// Función para dividir el array de medallas en grupos de 3
 function chunkArray(array, chunkSize) {
   const result = [];
   for (let i = 0; i < array.length; i += chunkSize) {
@@ -13,21 +21,55 @@ function chunkArray(array, chunkSize) {
 }
 
 const Badge = function Badge({ badge, index }) {
-  const opacity = useRef(new Animated.Value(0.0)).current;
+  const scale = useRef(new Animated.Value(0)).current;
 
   useEffect(() => {
-    Animated.timing(opacity, {
+    Animated.spring(scale, {
       toValue: 1,
-      duration: 200,
+      friction: 6,
+      tension: 70,
       delay: index * 200,
-      useNativeDriver: false,
+      useNativeDriver: true,
     }).start();
-  }, [opacity, index]);
+  }, [scale, index]);
+
+  // Animación al presionar la medalla
+  const handlePressIn = () => {
+    Animated.spring(scale, {
+      toValue: 0.9,
+      useNativeDriver: true,
+    }).start();
+  };
+
+  const handlePressOut = () => {
+    Animated.spring(scale, {
+      toValue: 1,
+      friction: 3,
+      tension: 40,
+      useNativeDriver: true,
+    }).start();
+  };
 
   return (
-    <Animated.View style={{ opacity }}>
-      <View key={badge.id} className="flex-1 items-center mx-2">
-        <View className="shadow-lg">
+    <View key={badge.id} className="flex-1 items-center mx-2">
+      <TouchableOpacity
+        activeOpacity={0.8}
+        onPressIn={handlePressIn}
+        onPressOut={handlePressOut}
+        onPress={() => {
+          // Aquí puedes agregar una acción al presionar la medalla, como abrir un modal
+        }}
+      >
+        <Animated.View
+          style={{
+            transform: [{ scale }],
+            opacity: scale.interpolate({
+              inputRange: [0, 1],
+              outputRange: [0, 1],
+            }),
+          }}
+          className="shadow-xl rounded-lg bg-white"
+        >
           <Image
             source={{
               uri: `https://raw.githubusercontent.com/0x10-z/One-Cat-a-Day/master/${badge.image}`,
@@ -35,10 +77,10 @@ const Badge = function Badge({ badge, index }) {
             className="w-28 h-28 rounded-lg"
             resizeMode="contain"
           />
-        </View>
-        <Text className="text-white mt-2 text-center">{badge.title}</Text>
-      </View>
-    </Animated.View>
+        </Animated.View>
+      </TouchableOpacity>
+      <Text className="text-white mt-2 text-center">{badge.title}</Text>
+    </View>
   );
 };
 
@@ -60,7 +102,10 @@ const BadgeRow = function BadgeRow({ rowIndex, badgeRow }) {
 export default function Badges() {
   const { badgeList } = useBadgeContext();
 
-  const badgeRows = chunkArray(badgeList, 3);
+  // Ordenar las medallas por fecha de obtención o cualquier otro criterio
+  const sortedBadges = badgeList.sort((a, b) => a.id - b.id);
+
+  const badgeRows = chunkArray(sortedBadges, 3);
 
   return (
     <Screen>
