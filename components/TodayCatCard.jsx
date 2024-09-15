@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Text, View, Image, StyleSheet, TouchableOpacity } from "react-native";
 import * as Animatable from "react-native-animatable";
 import { BombIcon, BrainIcon, LoveIcon, WeightScaleIcon } from "./Icons";
-import AsyncStorage from "@react-native-async-storage/async-storage";
+import { useCatContext } from "../hooks/useCatContext"; // Importa el contexto
 
 export default function TodayCatCard({ catInfo }) {
   const [loading, setLoading] = useState(false);
@@ -10,12 +10,13 @@ export default function TodayCatCard({ catInfo }) {
   const [timeRemaining, setTimeRemaining] = useState("");
   const [animationType, setAnimationType] = useState("pulse"); // Animación inicial
 
+  const { catList, addNewCat } = useCatContext(); // Accede a la función para agregar gatos
+
   useEffect(() => {
     // Cargar los IDs de los gatos guardados y comprobar si el ID de hoy ya está guardado
     const checkSavedCat = async () => {
       try {
-        const storedCats = await AsyncStorage.getItem("savedCats");
-        const savedCats = storedCats ? JSON.parse(storedCats) : [];
+        const savedCats = catList;
 
         // Comprobar si el ID del gato de hoy ya está guardado
         if (savedCats.includes(catInfo.id)) {
@@ -27,7 +28,7 @@ export default function TodayCatCard({ catInfo }) {
     };
 
     checkSavedCat();
-  }, [catInfo.id]);
+  }, [catList, catInfo.id]);
 
   useEffect(() => {
     const calculateTimeRemaining = () => {
@@ -66,14 +67,10 @@ export default function TodayCatCard({ catInfo }) {
     setTimeout(async () => {
       try {
         // Guardar el ID del gato de hoy en AsyncStorage
-        const storedCats = await AsyncStorage.getItem("savedCats");
-        const savedCats = storedCats ? JSON.parse(storedCats) : [];
+        const savedCats = catList;
 
         // Solo guardar si el gato aún no ha sido guardado
-        if (!savedCats.includes(catInfo.id)) {
-          savedCats.push(catInfo.id);
-          await AsyncStorage.setItem("savedCats", JSON.stringify(savedCats));
-        }
+        addNewCat(catInfo.id);
 
         setHasSavedCat(true);
       } catch (error) {
@@ -253,4 +250,4 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
   },
-})
+});
