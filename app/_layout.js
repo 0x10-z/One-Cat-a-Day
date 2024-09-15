@@ -28,6 +28,7 @@ export default function Layout() {
             headerLeft: () => (
               <Image
                 source={Logo}
+                className="rounded-3xl"
                 style={{ width: 50, height: 50, marginLeft: 10 }}
               />
             ),
