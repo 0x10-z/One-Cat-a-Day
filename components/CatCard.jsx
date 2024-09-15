@@ -45,7 +45,7 @@ export function AnimatedCatCard({ cat, index }) {
     Animated.timing(opacity, {
       toValue: 1,
       duration: 250,
-      delay: index * 250,
+      delay: index * 100,
       useNativeDriver: false,
     }).start();
   }, [opacity, index]);
@@ -56,10 +56,9 @@ export function AnimatedCatCard({ cat, index }) {
     </Animated.View>
   );
 }
-
 const styles = StyleSheet.create({
   cardContainer: {
-    flexDirection: "row",
+    flexDirection: "row", // Mantiene la imagen y la info en fila
     marginBottom: 16,
     backgroundColor: "rgba(255,255,255,0.4)",
     padding: 10,
@@ -68,21 +67,22 @@ const styles = StyleSheet.create({
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.8,
     shadowRadius: 2,
-    alignItems: "center",
-    justifyContent: "center",
+    alignItems: "flex-start", // Cambia a "flex-start" para alinear al inicio verticalmente
   },
   image: {
     width: 100,
     height: 150,
     borderRadius: 10,
+    marginRight: 12, // Asegura un margen entre la imagen y el texto
   },
   infoContainer: {
-    flexShrink: 1,
-    marginLeft: 12,
+    flexShrink: 1, // Permite que el contenido de texto ocupe solo el espacio necesario
+    flex: 1, // Asegura que el contenido de texto ocupe todo el espacio disponible
   },
   headerContainer: {
     flexDirection: "row",
     alignItems: "center",
+    flexWrap: "wrap", // En caso de que el nombre sea largo
   },
   name: {
     fontSize: 20,
