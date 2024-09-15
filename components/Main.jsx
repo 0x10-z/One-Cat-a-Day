@@ -1,4 +1,4 @@
-import { Image, ScrollView, Text, View, StyleSheet } from "react-native";
+import { View, StyleSheet } from "react-native";
 import { useEffect, useState } from "react";
 import { Screen } from "./Screen";
 import { getCatADay } from "../lib/onecataday";

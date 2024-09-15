@@ -1,22 +1,13 @@
-import {
-  Image,
-  Text,
-  View,
-  StyleSheet,
-  TouchableOpacity,
-  Animated,
-  Easing,
-} from "react-native";
-import { useState, useEffect, useRef } from "react";
+import React, { useState, useEffect } from "react";
+import { Text, View, Image, StyleSheet, TouchableOpacity } from "react-native";
+import * as Animatable from "react-native-animatable";
 import { BombIcon, BrainIcon, LoveIcon, WeightScaleIcon } from "./Icons";
 
 export default function TodayCatCard({ catInfo }) {
   const [loading, setLoading] = useState(false);
   const [hasSavedCat, setHasSavedCat] = useState(false); // Estado para saber si el gato ya ha sido guardado
-  const rotateAnim = useRef(new Animated.Value(0)).current; // Valor inicial para la rotación
-  const shakeAnim = useRef(new Animated.Value(0)).current; // Valor para el temblor
   const [timeRemaining, setTimeRemaining] = useState("");
-
+  const [animationType, setAnimationType] = useState("pulse"); // Animación inicial
   useEffect(() => {
     const calculateTimeRemaining = () => {
       const now = new Date();
@@ -36,109 +27,56 @@ export default function TodayCatCard({ catInfo }) {
     calculateTimeRemaining();
 
     // Actualiza el tiempo restante cada segundo
+    // eslint-disable-next-line no-undef
     const intervalId = setInterval(calculateTimeRemaining, 1000);
 
     // Limpia el intervalo cuando el componente se desmonta
+    // eslint-disable-next-line no-undef
     return () => clearInterval(intervalId);
-  }, []);
-
-  useEffect(() => {
-    // Animación divertida con vibraciones y pausas
-    Animated.loop(
-      Animated.sequence([
-        // Vibración rápida y corta
-        Animated.timing(shakeAnim, {
-          toValue: 1,
-          duration: 100,
-          easing: Easing.linear,
-          useNativeDriver: true,
-        }),
-        Animated.timing(shakeAnim, {
-          toValue: -1,
-          duration: 100,
-          easing: Easing.linear,
-          useNativeDriver: true,
-        }),
-        // Pausa breve
-        Animated.delay(150),
-        // Vibración más larga y más fuerte
-        Animated.timing(shakeAnim, {
-          toValue: 1.5,
-          duration: 300,
-          easing: Easing.linear,
-          useNativeDriver: true,
-        }),
-        Animated.timing(shakeAnim, {
-          toValue: -1.5,
-          duration: 300,
-          easing: Easing.linear,
-          useNativeDriver: true,
-        }),
-        // Pausa más larga
-        Animated.delay(300),
-        // Vibración ligera y rápida
-        Animated.timing(shakeAnim, {
-          toValue: 0.5,
-          duration: 150,
-          easing: Easing.linear,
-          useNativeDriver: true,
-        }),
-        Animated.timing(shakeAnim, {
-          toValue: -0.5,
-          duration: 150,
-          easing: Easing.linear,
-          useNativeDriver: true,
-        }),
-        // Pausa
-        Animated.delay(200),
-      ])
-    ).start();
   }, []);
 
   const handleGetCard = () => {
     setLoading(true);
 
-    // Animación de rotación en 3D al conseguir la tarjeta
-    Animated.timing(rotateAnim, {
-      toValue: 1, // Valor final de la rotación
-      duration: 1200,
-      easing: Easing.inOut(Easing.ease),
-      useNativeDriver: true,
-    }).start(() => {
-      setHasSavedCat(true); // Marcar que el gato ha sido guardado
+    // Cambia la animación a "bounceOut"
+    setAnimationType("bounceOut");
+
+    // Después de la animación, guarda el gato y cambia el estado
+    // eslint-disable-next-line no-undef
+    setTimeout(() => {
+      setHasSavedCat(true);
       setLoading(false);
-    });
+    }, 1200); // El tiempo debe coincidir con la duración de la animación
   };
-
-  // Interpolación para la rotación 3D
-  const rotateY = rotateAnim.interpolate({
-    inputRange: [0, 1],
-    outputRange: ["0deg", "360deg"],
-  });
-
-  // Interpolación para el temblor
-  const translateX = shakeAnim.interpolate({
-    inputRange: [-1, 1],
-    outputRange: [-2, 2], // Moverse 2px a la izquierda y derecha
-  });
 
   return (
     <>
       {/* Mostrar mensaje si el gato ya ha sido guardado */}
       {hasSavedCat ? (
-        <View style={styles.centeredContainer}>
-          <Text style={styles.savedMessage}>
-            "¡Wow! Ya atrapaste el gato de hoy. 🐾 Vuelve mañana para más
-            travesuras. 😺"
-          </Text>
+        <View style={styles.cardContainer}>
+          <Animatable.View
+            animation={"pulse"} // Aplicar la animación basada en el estado
+            iterationCount="infinite"
+            duration={1500}
+          >
+            <Text style={styles.savedMessage}>
+              ¡Wow! Ya atrapaste el gato de hoy.
+            </Text>
+            <Text style={styles.savedMessage}>
+              🐾 Vuelve mañana para más travesuras. 😺
+            </Text>
+          </Animatable.View>
           <Text style={styles.countdownText}>
             {" "}
             Próximo gato en: {timeRemaining}
           </Text>
         </View>
       ) : (
-        <Animated.View
-          style={[styles.card, { transform: [{ translateX }, { rotateY }] }]}
+        <Animatable.View
+          animation={animationType} // Aplicar la animación basada en el estado
+          iterationCount="infinite"
+          duration={1500}
+          style={styles.card}
         >
           <Text className="absolute right-5 top-3 text-gray-700 text-3xl font-bold">
             #{catInfo.listPosition}
@@ -197,7 +135,7 @@ export default function TodayCatCard({ catInfo }) {
               {loading ? "Cargando..." : "Conseguir tarjeta"}
             </Text>
           </TouchableOpacity>
-        </Animated.View>
+        </Animatable.View>
       )}
     </>
   );
@@ -209,6 +147,10 @@ const styles = StyleSheet.create({
     fontSize: 32,
     fontStyle: "italic",
     textAlign: "center",
+  },
+  cardContainer: {
+    alignItems: "center",
+    justifyContent: "center",
   },
   countdownText: {
     fontSize: 18,
@@ -276,4 +218,4 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: "bold",
   },
-});
+})
