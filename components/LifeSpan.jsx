@@ -16,10 +16,10 @@ export function LifeSpan({ years }) {
   const className = getColors();
   return (
     <View
-      className={`${className} w-8 h-8 rounded-full justify-center items-center`}
+      className={`${className} w-12 h-6 rounded-full justify-center items-center`}
     >
-      <Text className="text-lg font-bold text-white">
-        {years ? `${years}` : "?"}
+      <Text className="text-xs font-bold text-white">
+        {years ? `${years} años` : "?"}
       </Text>
     </View>
   );

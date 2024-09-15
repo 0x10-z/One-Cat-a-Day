@@ -44,7 +44,7 @@ export default function Detail() {
                 #{catInfo.listPosition} {catInfo.name}
               </Text>
               <Text style={styles.catOrigin}>{catInfo.origin}</Text>
-              <LifeSpan score={catInfo.life_span} maxScore={20} />
+              <LifeSpan years={catInfo.lifeSpan} />
               <Text style={styles.description}>{catInfo.description}</Text>
               <Text style={styles.attribute}>
                 <Text style={styles.attributeLabel}>Peso: </Text>
