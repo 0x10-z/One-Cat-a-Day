@@ -24,7 +24,7 @@ export default function MyCats() {
 
           // Filtra los gatos que coinciden con los IDs almacenados
           const filteredCats = fetchedCats.filter((cat) =>
-            catList.includes(cat.id),
+            catList.includes(cat.id)
           );
 
           setCats(filteredCats);
@@ -52,7 +52,7 @@ export default function MyCats() {
           style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
         >
           <Text style={{ fontSize: 24, color: "#fff" }}>
-            ¡Obtén tu primer gato ya! {catList.length}
+            ¡Obtén tu primer gato ya!
           </Text>
         </View>
       ) : (
