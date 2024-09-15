@@ -62,6 +62,3 @@ export function CatProvider({ children }) {
 export function useCatContext() {
   return useContext(CatContext);
 }
-
-// Export the context in case direct access is needed
-export { CatContext };

@@ -3,23 +3,24 @@ import { Text, View, Image, StyleSheet, TouchableOpacity } from "react-native";
 import * as Animatable from "react-native-animatable";
 import { BombIcon, BrainIcon, LoveIcon, WeightScaleIcon } from "./Icons";
 import { useCatContext } from "../hooks/useCatContext"; // Importa el contexto
+import { useBadgeContext } from "../hooks/useBadgeContext"; // Importa el contexto
 
-export default function TodayCatCard({ catInfo }) {
+export default function TodayCatCard({ newCatInfo }) {
   const [loading, setLoading] = useState(false);
   const [hasSavedCat, setHasSavedCat] = useState(false); // Estado para saber si el gato ya ha sido guardado
   const [timeRemaining, setTimeRemaining] = useState("");
   const [animationType, setAnimationType] = useState("pulse"); // Animación inicial
 
   const { catList, addNewCat } = useCatContext(); // Accede a la función para agregar gatos
+  const { checkBadges } = useBadgeContext();
 
   useEffect(() => {
     // Cargar los IDs de los gatos guardados y comprobar si el ID de hoy ya está guardado
     const checkSavedCat = async () => {
       try {
         const savedCats = catList;
-
         // Comprobar si el ID del gato de hoy ya está guardado
-        if (savedCats.includes(catInfo.id)) {
+        if (savedCats.includes(newCatInfo.id)) {
           setHasSavedCat(true);
         }
       } catch (error) {
@@ -28,9 +29,12 @@ export default function TodayCatCard({ catInfo }) {
     };
 
     checkSavedCat();
-  }, [catList, catInfo.id]);
+  }, [catList, newCatInfo.id]);
 
   useEffect(() => {
+    // When user logins, check for new badges
+    checkBadges(catList);
+
     const calculateTimeRemaining = () => {
       const now = new Date();
       const tomorrow = new Date();
@@ -64,13 +68,11 @@ export default function TodayCatCard({ catInfo }) {
     setAnimationType("bounceOut");
 
     // Después de la animación, guarda el gato y cambia el estado
+    // eslint-disable-next-line no-undef
     setTimeout(async () => {
       try {
-        // Guardar el ID del gato de hoy en AsyncStorage
-        const savedCats = catList;
-
         // Solo guardar si el gato aún no ha sido guardado
-        addNewCat(catInfo.id);
+        addNewCat(newCatInfo.id);
 
         setHasSavedCat(true);
       } catch (error) {
@@ -78,6 +80,7 @@ export default function TodayCatCard({ catInfo }) {
       }
 
       setLoading(false);
+      await checkBadges([...catList, newCatInfo]);
     }, 1200); // El tiempo debe coincidir con la duración de la animación
   };
 
@@ -111,21 +114,21 @@ export default function TodayCatCard({ catInfo }) {
           style={styles.card}
         >
           <Text className="absolute right-5 top-3 text-gray-700 text-3xl font-bold">
-            #{catInfo.listPosition}
+            #{newCatInfo.listPosition}
           </Text>
 
           {/* Imagen del gato */}
           <Image
-            source={{ uri: catInfo.url }}
+            source={{ uri: newCatInfo.url }}
             style={styles.catImage}
             resizeMode="cover"
           />
 
           {/* Nombre del gato */}
-          <Text style={styles.catName}>{catInfo.name}</Text>
+          <Text style={styles.catName}>{newCatInfo.name}</Text>
 
           {/* Descripción del gato */}
-          <Text style={styles.description}>{catInfo.origin}</Text>
+          <Text style={styles.description}>{newCatInfo.origin}</Text>
 
           {/* Iconos con atributos */}
           <View className="flex-row" style={styles.attributesContainer}>
@@ -133,28 +136,32 @@ export default function TodayCatCard({ catInfo }) {
             <View style={styles.attribute}>
               <WeightScaleIcon className="text-gray-700" />
               <Text style={styles.attributeText}>
-                {catInfo.weight.metric} kg
+                {newCatInfo.weight.metric} kg
               </Text>
             </View>
 
             {/* Inteligente */}
             <View style={styles.attribute}>
               <BrainIcon className="text-gray-700" />
-              <Text style={styles.attributeText}>{catInfo.intelligence}/5</Text>
+              <Text style={styles.attributeText}>
+                {newCatInfo.intelligence}/5
+              </Text>
             </View>
 
             {/* Amor */}
             <View style={styles.attribute}>
               <LoveIcon className="text-gray-700" />
               <Text style={styles.attributeText}>
-                {catInfo.affection_level}/5
+                {newCatInfo.affection_level}/5
               </Text>
             </View>
 
             {/* Travieso */}
             <View style={styles.attribute}>
               <BombIcon className="text-gray-700" />
-              <Text style={styles.attributeText}>{catInfo.social_needs}/5</Text>
+              <Text style={styles.attributeText}>
+                {newCatInfo.social_needs}/5
+              </Text>
             </View>
           </View>
 

@@ -18,7 +18,7 @@ export default function DailyCat() {
         <LoadingIndicator />
       ) : (
         <View style={styles.prizeContainer}>
-          <TodayCatCard catInfo={catInfo} />
+          <TodayCatCard newCatInfo={catInfo} />
         </View>
       )}
     </Screen>
