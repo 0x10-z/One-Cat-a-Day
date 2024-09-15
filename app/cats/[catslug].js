@@ -45,8 +45,8 @@ export default function Detail() {
               <LifeSpan score={catInfo.life_span} maxScore={20} />
               <Text style={styles.description}>{catInfo.description}</Text>
               <Text style={styles.attribute}>
-                <Text style={styles.attributeLabel}>Peso: </Text>(
-                {catInfo.weight} kg)
+                <Text style={styles.attributeLabel}>Peso: </Text>
+                {catInfo.weight} kg
               </Text>
               <Text style={styles.attribute}>
                 <Text style={styles.attributeLabel}>Inteligencia: </Text>
