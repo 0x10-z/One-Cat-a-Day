@@ -1,12 +1,12 @@
 import { Link } from "expo-router";
 import { Image, ScrollView, Text, View, StyleSheet } from "react-native";
 import { useLocalSearchParams } from "expo-router";
-import { Screen } from "../components/Screen";
+import { Screen } from "../../components/Screen";
 import { Stack } from "expo-router";
 import { useEffect, useState } from "react";
-import { getCatDetails } from "../lib/onecataday";
-import { LifeSpan } from "../components/LifeSpan";
-import { LoadingIndicator } from "../components/LoadingIndicator";
+import { getCatDetails } from "../../lib/onecataday";
+import { LifeSpan } from "../../components/LifeSpan";
+import { LoadingIndicator } from "../../components/LoadingIndicator";
 
 export default function Detail() {
   const { catslug } = useLocalSearchParams();
@@ -22,8 +22,8 @@ export default function Detail() {
     <Screen>
       <Stack.Screen
         options={{
-          headerStyle: { backgroundColor: "gray" },
-          headerTintColor: "black",
+          headerStyle: { backgroundColor: "black" },
+          headerTintColor: "white",
           headerLeft: () => {},
           headerTitle: catInfo ? catInfo.name : "Loading...",
           headerRight: () => {},
@@ -57,7 +57,7 @@ export default function Detail() {
                 {catInfo.affection_level}/5
               </Text>
               <Link
-                href="/"
+                href="/cats"
                 className="text-white p-4 bg-red-400 rounded"
                 style={styles.backButton}
               >
