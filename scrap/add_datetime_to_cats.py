@@ -6,12 +6,12 @@ with open('cataas.json', 'r', encoding='utf-8') as f:
     cats_data = json.load(f)
 
 # Obtener la fecha actual
-today = datetime.datetime.now()
+since = datetime.datetime(2024,9,15)
 
 # Iterar sobre los gatos y asignarles una fecha
 for cat in cats_data:
-    cat['expected_date_to_publish'] = today.strftime("%d/%m/%Y")
-    today += datetime.timedelta(days=1)  # Sumar 1 día
+    cat['expected_date_to_publish'] = since.strftime("%d/%m/%Y")
+    since += datetime.timedelta(days=1)  # Sumar 1 día
 
 # Guardar el archivo JSON actualizado
 with open('cataas.json', 'w', encoding='utf-8') as f:
