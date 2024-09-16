@@ -88,5 +88,15 @@
       "type": "specific_cat",
       "catId": "coffee"
     }
+  },
+  {
+    "id": 11,
+    "title": "Kernel Changer",
+    "image": "assets/badges/kernel_android.webp",
+    "obtained": false,
+    "criteria": {
+      "type": "specific_cat",
+      "catId": "kernel_android"
+    }
   }
 ]
