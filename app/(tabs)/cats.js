@@ -50,8 +50,7 @@ export default function MyCats() {
         <LoadingIndicator />
       ) : cats.length === 0 ? (
         <View
-          style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
-        >
+          style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
           <Text style={{ fontSize: 24, color: "#fff" }}>
             ¡Obtén tu primer gato ya!
           </Text>
@@ -59,7 +58,7 @@ export default function MyCats() {
       ) : (
         <FlatList
           className="p-2"
-          data={cats}
+          data={[...cats].reverse()}
           keyExtractor={(cat) => cat.id}
           renderItem={({ item, index }) => (
             <AnimatedCatCard cat={item} index={index} />
