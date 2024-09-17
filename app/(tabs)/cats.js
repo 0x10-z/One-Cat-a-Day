@@ -5,6 +5,7 @@ import { AnimatedCatCard } from "../../components/CatCard";
 import { Screen } from "../../components/Screen";
 import { LoadingIndicator } from "../../components/LoadingIndicator";
 import { useCatContext } from "../../hooks/useCatContext"; // Importa el contexto
+import { showErrorToast } from "../../lib/toastUtils";
 
 export default function MyCats() {
   const [cats, setCats] = useState([]);
@@ -34,7 +35,7 @@ export default function MyCats() {
           setCats([]);
         }
       } catch (error) {
-        console.error("Error al cargar los gatos:", error);
+        showErrorToast("Error al cargar los gatos: " + error);
       } finally {
         // Desactivar el estado de carga cuando se complete el fetch
         setLoading(false);
