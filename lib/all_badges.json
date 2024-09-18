@@ -45,8 +45,9 @@
     "image": "assets/badges/betatester.webp",
     "obtained": false,
     "criteria": {
-      "type": "specific_cat",
-      "catId": "09wFxpacQzvf9jfM"
+      "type": "date_range",
+      "startDate": "2024-09-15",
+      "endDate": "2024-10-15"
     }
   },
   {

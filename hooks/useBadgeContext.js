@@ -28,13 +28,13 @@ export function BadgeProvider({ children }) {
         setBadgeList((prevList) => [...prevList, ...newBadges]);
         // Opcional: Notificar al usuario sobre las nuevas medallas
       }
+      return newBadges.length;
     }
   };
 
   return (
     <BadgeContext.Provider
-      value={{ badgeList, checkBadges, badges: badgeManager?.badges || [] }}
-    >
+      value={{ badgeList, checkBadges, badges: badgeManager?.badges || [] }}>
       {children}
     </BadgeContext.Provider>
   );

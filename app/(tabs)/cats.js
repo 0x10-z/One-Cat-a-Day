@@ -5,6 +5,7 @@ import { AnimatedCatCard } from "../../components/CatCard";
 import { Screen } from "../../components/Screen";
 import { LoadingIndicator } from "../../components/LoadingIndicator";
 import { useCatContext } from "../../hooks/useCatContext"; // Importa el contexto
+import { showErrorToast } from "../../lib/toastUtils";
 
 export default function MyCats() {
   const [cats, setCats] = useState([]);
@@ -34,7 +35,7 @@ export default function MyCats() {
           setCats([]);
         }
       } catch (error) {
-        console.error("Error al cargar los gatos:", error);
+        showErrorToast("Error al cargar los gatos: " + error);
       } finally {
         // Desactivar el estado de carga cuando se complete el fetch
         setLoading(false);
@@ -50,8 +51,7 @@ export default function MyCats() {
         <LoadingIndicator />
       ) : cats.length === 0 ? (
         <View
-          style={{ flex: 1, justifyContent: "center", alignItems: "center" }}
-        >
+          style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
           <Text style={{ fontSize: 24, color: "#fff" }}>
             ¡Obtén tu primer gato ya!
           </Text>
@@ -59,7 +59,7 @@ export default function MyCats() {
       ) : (
         <FlatList
           className="p-2"
-          data={cats}
+          data={[...cats].reverse()}
           keyExtractor={(cat) => cat.id}
           renderItem={({ item, index }) => (
             <AnimatedCatCard cat={item} index={index} />

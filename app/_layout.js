@@ -4,6 +4,7 @@ import { CircleInfoIcon } from "../components/Icons";
 import { NativeWindStyleSheet } from "nativewind";
 import { CatProvider } from "../hooks/useCatContext"; // Importa el proveedor
 import { BadgeProvider } from "../hooks/useBadgeContext"; // Importa el proveedor
+import Toast from "react-native-toast-message";
 
 const Logo = require("../assets/logo.png");
 
@@ -43,6 +44,7 @@ export default function Layout() {
               ),
             }}
           />
+          <Toast />
         </View>
       </CatProvider>
     </BadgeProvider>

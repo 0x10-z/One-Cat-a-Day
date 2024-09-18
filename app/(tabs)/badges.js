@@ -6,7 +6,6 @@ import {
   Image,
   Animated,
   TouchableOpacity,
-  Easing,
 } from "react-native";
 import { Screen } from "../../components/Screen";
 import { useBadgeContext } from "../../hooks/useBadgeContext";
@@ -58,8 +57,7 @@ const Badge = function Badge({ badge, index }) {
         onPressOut={handlePressOut}
         onPress={() => {
           // Aquí puedes agregar una acción al presionar la medalla, como abrir un modal
-        }}
-      >
+        }}>
         <Animated.View
           style={{
             transform: [{ scale }],
@@ -68,8 +66,7 @@ const Badge = function Badge({ badge, index }) {
               outputRange: [0, 1],
             }),
           }}
-          className="shadow-xl rounded-lg bg-white"
-        >
+          className="shadow-xl rounded-lg bg-white">
           <Image
             source={{
               uri: `https://raw.githubusercontent.com/0x10-z/One-Cat-a-Day/master/${badge.image}`,

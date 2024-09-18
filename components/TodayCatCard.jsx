@@ -12,6 +12,7 @@ import { BombIcon, BrainIcon, LoveIcon, WeightScaleIcon } from "./Icons";
 import { useCatContext } from "../hooks/useCatContext"; // Importa el contexto
 import { useBadgeContext } from "../hooks/useBadgeContext"; // Importa el contexto
 import { getCatGif } from "../lib/onecataday";
+import { showErrorToast, showNewBadgeToast } from "../lib/toastUtils";
 
 export default function TodayCatCard({ newCatInfo }) {
   const [loading, setLoading] = useState(false);
@@ -33,7 +34,7 @@ export default function TodayCatCard({ newCatInfo }) {
           setHasSavedCat(true);
         }
       } catch (error) {
-        console.error("Error al cargar los gatos guardados:", error);
+        showErrorToast("Error al cargar los gatos guardados:" + error);
       }
     };
 
@@ -77,7 +78,6 @@ export default function TodayCatCard({ newCatInfo }) {
   const handleGetCard = async () => {
     setLoading(true);
 
-    // Cambia la animación a "bounceOut"
     setAnimationType("bounceOut");
 
     // Después de la animación, guarda el gato y cambia el estado
@@ -89,11 +89,14 @@ export default function TodayCatCard({ newCatInfo }) {
 
         setHasSavedCat(true);
       } catch (error) {
-        console.error("Error al guardar el gato:", error);
+        showErrorToast("Error al guardar el gato:" + error);
       }
 
       setLoading(false);
-      await checkBadges([...catList, newCatInfo]);
+      const numberOfBudges = await checkBadges([...catList, newCatInfo]);
+      if (numberOfBudges > 0) {
+        showNewBadgeToast(numberOfBudges);
+      }
     }, 1200); // El tiempo debe coincidir con la duración de la animación
   };
 
@@ -132,8 +135,7 @@ export default function TodayCatCard({ newCatInfo }) {
           animation={animationType} // Aplicar la animación basada en el estado
           iterationCount="infinite"
           duration={1500}
-          style={styles.card}
-        >
+          style={styles.card}>
           <Text className="absolute right-5 top-3 text-gray-700 text-3xl font-bold">
             #{newCatInfo.listPosition}
           </Text>
@@ -185,8 +187,7 @@ export default function TodayCatCard({ newCatInfo }) {
           <TouchableOpacity
             style={[styles.button, loading ? styles.buttonLoading : {}]}
             onPress={handleGetCard}
-            disabled={loading}
-          >
+            disabled={loading}>
             <Text style={styles.buttonText}>
               {loading ? "Cargando..." : "Conseguir tarjeta"}
             </Text>
