@@ -94,7 +94,9 @@ export default function TodayCatCard({ newCatInfo }) {
 
       setLoading(false);
       const numberOfBudges = await checkBadges([...catList, newCatInfo]);
-      showNewBadgeToast(numberOfBudges);
+      if (numberOfBudges > 0) {
+        showNewBadgeToast(numberOfBudges);
+      }
     }, 1200); // El tiempo debe coincidir con la duración de la animación
   };
 
