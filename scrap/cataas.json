@@ -409,21 +409,6 @@
         "expected_date_to_publish": "13/10/2024"
     },
     {
-        "id": "1bJraW0IwSPm3MVd.webp",
-        "name": "Whisker Master",
-        "description": "Tiene la habilidad de aparecer mágicamente cuando abres una lata de comida.",
-        "years": 11,
-        "weight": 5,
-        "intelligence": 4,
-        "love": 3,
-        "exploding_rate": 2,
-        "tags": [
-            "cute",
-            "fluffy"
-        ],
-        "expected_date_to_publish": "14/10/2024"
-    },
-    {
         "id": "zani.webp",
         "name": "Zani Bunny",
         "description": "Zani tiene dos pasiones en la vida: ser el rey indiscutido del hogar y devorar latas de atún. A pesar de su apodo, ni te acerques con zanahorias. Él es más de dominar desde su trono (tu sofá) mientras espera su próxima comida gourmet.",
@@ -437,6 +422,21 @@
             "zanahorio",
             "gourmet",
             "rey de la casa"
+        ],
+        "expected_date_to_publish": "14/10/2024"
+    },
+    {
+        "id": "1bJraW0IwSPm3MVd.webp",
+        "name": "Whisker Master",
+        "description": "Tiene la habilidad de aparecer mágicamente cuando abres una lata de comida.",
+        "years": 11,
+        "weight": 5,
+        "intelligence": 4,
+        "love": 3,
+        "exploding_rate": 2,
+        "tags": [
+            "cute",
+            "fluffy"
         ],
         "expected_date_to_publish": "15/10/2024"
     },
